@@ -1,0 +1,80 @@
+{
+ "id": "005",
+ "title": "Сукун: слова подлиннее",
+ "subtitle": "Слоги с сукуном внутри слова",
+ "level": 3,
+ "targetSeconds": 35,
+ "tip": "Делите слово на слоги по сукуну: نَعْ-بُدُ, أَنْ-عَمْ-تَ. Через пару повторов глаз начнёт видеть эти слоги сразу.",
+ "items": [
+  {
+   "type": "word",
+   "ar": "نَعْبُدُ",
+   "loc": "1:5:2",
+   "audio": "https://audio.qurancdn.com/wbw/001_005_002.mp3",
+   "translit": "naʿbudu"
+  },
+  {
+   "type": "word",
+   "ar": "أَنْعَمْتَ",
+   "loc": "1:7:3",
+   "audio": "https://audio.qurancdn.com/wbw/001_007_003.mp3",
+   "translit": "anʿamta"
+  },
+  {
+   "type": "word",
+   "ar": "عَلَيْهِمْ",
+   "loc": "1:7:4",
+   "audio": "https://audio.qurancdn.com/wbw/001_007_004.mp3",
+   "translit": "ʿalayhim"
+  },
+  {
+   "type": "word",
+   "ar": "أَعْبُدُ",
+   "loc": "109:2:2",
+   "audio": "https://audio.qurancdn.com/wbw/109_002_002.mp3",
+   "translit": "aʿbudu"
+  },
+  {
+   "type": "word",
+   "ar": "نَشْرَحْ",
+   "loc": "94:1:2",
+   "audio": "https://audio.qurancdn.com/wbw/094_001_002.mp3",
+   "translit": "nashraḥ"
+  },
+  {
+   "type": "word",
+   "ar": "صَدْرَكَ",
+   "loc": "94:1:4",
+   "audio": "https://audio.qurancdn.com/wbw/094_001_004.mp3",
+   "translit": "ṣadraka"
+  },
+  {
+   "type": "word",
+   "ar": "لَيْلَةِ",
+   "loc": "97:1:4",
+   "audio": "https://audio.qurancdn.com/wbw/097_001_004.mp3",
+   "translit": "laylati"
+  },
+  {
+   "type": "word",
+   "ar": "يَعْمَلْ",
+   "loc": "99:7:2",
+   "audio": "https://audio.qurancdn.com/wbw/099_007_002.mp3",
+   "translit": "yaʿmal"
+  },
+  {
+   "type": "word",
+   "ar": "يَحْسَبُ",
+   "loc": "104:3:1",
+   "audio": "https://audio.qurancdn.com/wbw/104_003_001.mp3",
+   "translit": "yaḥsabu"
+  },
+  {
+   "type": "word",
+   "ar": "يُوَسْوِسُ",
+   "loc": "114:5:2",
+   "audio": "https://audio.qurancdn.com/wbw/114_005_002.mp3",
+   "translit": "yuwaswisu"
+  }
+ ]
+}

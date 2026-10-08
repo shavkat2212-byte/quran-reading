@@ -1,0 +1,59 @@
+{
+ "id": "002",
+ "title": "Слова из 3 букв",
+ "subtitle": "Только короткие гласные",
+ "level": 1,
+ "targetSeconds": 30,
+ "tip": "Многие из этих слов — глаголы прошедшего времени (خَلَقَ «создал»). Ритм у них одинаковый: та-та-та. Поймайте ритм — и скорость придёт сама.",
+ "items": [
+  {
+   "type": "word",
+   "ar": "خَلَقَ",
+   "loc": "113:2:4",
+   "audio": "https://audio.qurancdn.com/wbw/113_002_004.mp3",
+   "translit": "khalaqa"
+  },
+  {
+   "type": "word",
+   "ar": "جَمَعَ",
+   "loc": "104:2:2",
+   "audio": "https://audio.qurancdn.com/wbw/104_002_002.mp3",
+   "translit": "jamaʿa"
+  },
+  {
+   "type": "word",
+   "ar": "كَسَبَ",
+   "loc": "111:2:6",
+   "audio": "https://audio.qurancdn.com/wbw/111_002_006.mp3",
+   "translit": "kasaba"
+  },
+  {
+   "type": "word",
+   "ar": "وَلَدَ",
+   "loc": "90:3:3",
+   "audio": "https://audio.qurancdn.com/wbw/090_003_003.mp3",
+   "translit": "walada"
+  },
+  {
+   "type": "word",
+   "ar": "أَمَرَ",
+   "loc": "96:12:2",
+   "audio": "https://audio.qurancdn.com/wbw/096_012_002.mp3",
+   "translit": "amara"
+  },
+  {
+   "type": "word",
+   "ar": "حَسَدَ",
+   "loc": "113:5:5",
+   "audio": "https://audio.qurancdn.com/wbw/113_005_005.mp3",
+   "translit": "ḥasada"
+  },
+  {
+   "type": "word",
+   "ar": "مَلِكِ",
+   "loc": "114:2:1",
+   "audio": "https://audio.qurancdn.com/wbw/114_002_001.mp3",
+   "translit": "maliki"
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "id": "007",
+ "title": "Артикль ال: лунные и солнечные буквы",
+ "subtitle": "Слова с ٱلْ / ٱل",
+ "level": 3,
+ "targetSeconds": 32,
+ "tip": "Если после ل стоит сукун (ٱلْحَمْدُ) — ل читается («аль-хамду», лунная буква). Если на следующей букве шадда (ٱلصَّمَدُ) — ل не читается («ас-самаду», солнечная буква). Значок ٱ (васла) произносится как «а» только в начале чтения.",
+ "items": [
+  {
+   "type": "word",
+   "ar": "ٱلْحَمْدُ",
+   "loc": "1:2:1",
+   "audio": "https://audio.qurancdn.com/wbw/001_002_001.mp3",
+   "translit": "al-ḥamdu"
+  },
+  {
+   "type": "word",
+   "ar": "ٱللَّهِ",
+   "loc": "1:1:2",
+   "audio": "https://audio.qurancdn.com/wbw/001_001_002.mp3",
+   "translit": "l-lahi"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلْفَلَقِ",
+   "loc": "113:1:4",
+   "audio": "https://audio.qurancdn.com/wbw/113_001_004.mp3",
+   "translit": "l-falaqi"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلصَّمَدُ",
+   "loc": "112:2:2",
+   "audio": "https://audio.qurancdn.com/wbw/112_002_002.mp3",
+   "translit": "l-ṣamadu"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلْقَدْرِ",
+   "loc": "97:1:5",
+   "audio": "https://audio.qurancdn.com/wbw/097_001_005.mp3",
+   "translit": "l-qadri"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلْكَوْثَرَ",
+   "loc": "108:1:3",
+   "audio": "https://audio.qurancdn.com/wbw/108_001_003.mp3",
+   "translit": "l-kawthara"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلْفَجْرِ",
+   "loc": "97:5:5",
+   "audio": "https://audio.qurancdn.com/wbw/097_005_005.mp3",
+   "translit": "l-fajri"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلْعُسْرِ",
+   "loc": "94:5:3",
+   "audio": "https://audio.qurancdn.com/wbw/094_005_003.mp3",
+   "translit": "l-ʿus'ri"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلْبَيْتِ",
+   "loc": "106:3:4",
+   "audio": "https://audio.qurancdn.com/wbw/106_003_004.mp3",
+   "translit": "l-bayti"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلْجِنَّةِ",
+   "loc": "114:6:2",
+   "audio": "https://audio.qurancdn.com/wbw/114_006_002.mp3",
+   "translit": "l-jinati"
+  }
+ ]
+}

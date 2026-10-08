@@ -1,0 +1,94 @@
+{
+ "id": "009",
+ "title": "Длинные слова из Фатихи и коротких сур",
+ "subtitle": "Всё вместе",
+ "level": 4,
+ "targetSeconds": 40,
+ "tip": "Эти слова вы, скорее всего, знаете на слух. Сейчас задача — узнать их глазом. Читайте по слогам один раз, затем сразу целиком.",
+ "items": [
+  {
+   "type": "word",
+   "ar": "ٱلرَّحْمَـٰنِ",
+   "loc": "1:1:3",
+   "audio": "https://audio.qurancdn.com/wbw/001_001_003.mp3",
+   "translit": "l-raḥmāni"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلْعَـٰلَمِينَ",
+   "loc": "1:2:4",
+   "audio": "https://audio.qurancdn.com/wbw/001_002_004.mp3",
+   "translit": "l-ʿālamīna"
+  },
+  {
+   "type": "word",
+   "ar": "إِيَّاكَ",
+   "loc": "1:5:1",
+   "audio": "https://audio.qurancdn.com/wbw/001_005_001.mp3",
+   "translit": "iyyāka"
+  },
+  {
+   "type": "word",
+   "ar": "نَسْتَعِينُ",
+   "loc": "1:5:4",
+   "audio": "https://audio.qurancdn.com/wbw/001_005_004.mp3",
+   "translit": "nastaʿīnu"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلْمُسْتَقِيمَ",
+   "loc": "1:6:3",
+   "audio": "https://audio.qurancdn.com/wbw/001_006_003.mp3",
+   "translit": "l-mus'taqīma"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلْمَغْضُوبِ",
+   "loc": "1:7:6",
+   "audio": "https://audio.qurancdn.com/wbw/001_007_006.mp3",
+   "translit": "l-maghḍūbi"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلضَّآلِّينَ",
+   "loc": "1:7:9",
+   "audio": "https://audio.qurancdn.com/wbw/001_007_009.mp3",
+   "translit": "l-ḍālīna"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلصَّـٰلِحَـٰتِ",
+   "loc": "103:3:5",
+   "audio": "https://audio.qurancdn.com/wbw/103_003_005.mp3",
+   "translit": "l-ṣāliḥāti"
+  },
+  {
+   "type": "word",
+   "ar": "أَعْطَيْنَـٰكَ",
+   "loc": "108:1:2",
+   "audio": "https://audio.qurancdn.com/wbw/108_001_002.mp3",
+   "translit": "aʿṭaynāka"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلْكَـٰفِرُونَ",
+   "loc": "109:1:3",
+   "audio": "https://audio.qurancdn.com/wbw/109_001_003.mp3",
+   "translit": "l-kāfirūna"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلْوَسْوَاسِ",
+   "loc": "114:4:3",
+   "audio": "https://audio.qurancdn.com/wbw/114_004_003.mp3",
+   "translit": "l-waswāsi"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلْخَنَّاسِ",
+   "loc": "114:4:4",
+   "audio": "https://audio.qurancdn.com/wbw/114_004_004.mp3",
+   "translit": "l-khanāsi"
+  }
+ ]
+}

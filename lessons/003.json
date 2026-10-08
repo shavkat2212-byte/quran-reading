@@ -1,0 +1,66 @@
+{
+ "id": "003",
+ "title": "Слова с приставками وَ и فَ",
+ "subtitle": "4–5 букв, короткие гласные",
+ "level": 2,
+ "targetSeconds": 32,
+ "tip": "وَ («и») и فَ («и вот / тогда») пишутся слитно со словом. Сначала узнайте приставку глазом, потом читайте остаток слова как знакомое слово.",
+ "items": [
+  {
+   "type": "word",
+   "ar": "وَهُوَ",
+   "loc": "85:14:1",
+   "audio": "https://audio.qurancdn.com/wbw/085_014_001.mp3",
+   "translit": "wahuwa"
+  },
+  {
+   "type": "word",
+   "ar": "صُحُفِ",
+   "loc": "87:19:1",
+   "audio": "https://audio.qurancdn.com/wbw/087_019_001.mp3",
+   "translit": "ṣuḥufi"
+  },
+  {
+   "type": "word",
+   "ar": "بَخِلَ",
+   "loc": "92:8:3",
+   "audio": "https://audio.qurancdn.com/wbw/092_008_003.mp3",
+   "translit": "bakhila"
+  },
+  {
+   "type": "word",
+   "ar": "وَقَبَ",
+   "loc": "113:3:5",
+   "audio": "https://audio.qurancdn.com/wbw/113_003_005.mp3",
+   "translit": "waqaba"
+  },
+  {
+   "type": "word",
+   "ar": "خَلَقَكَ",
+   "loc": "82:7:2",
+   "audio": "https://audio.qurancdn.com/wbw/082_007_002.mp3",
+   "translit": "khalaqaka"
+  },
+  {
+   "type": "word",
+   "ar": "وَذَكَرَ",
+   "loc": "87:15:1",
+   "audio": "https://audio.qurancdn.com/wbw/087_015_001.mp3",
+   "translit": "wadhakara"
+  },
+  {
+   "type": "word",
+   "ar": "وَكَفَرَ",
+   "loc": "88:23:4",
+   "audio": "https://audio.qurancdn.com/wbw/088_023_004.mp3",
+   "translit": "wakafara"
+  },
+  {
+   "type": "word",
+   "ar": "فَحَشَرَ",
+   "loc": "79:23:1",
+   "audio": "https://audio.qurancdn.com/wbw/079_023_001.mp3",
+   "translit": "faḥashara"
+  }
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "id": "008",
+ "title": "Танвин и долгие гласные (мадд)",
+ "subtitle": "ـٌ ـٍ ـً и ا و ي",
+ "level": 4,
+ "targetSeconds": 36,
+ "tip": "Танвин — двойная огласовка в конце слова, читается «-ун / -ин / -ан» (أَحَدٌ — «ахадун»). Долгие гласные: ا после фатхи, و после даммы, ي после касры, а также маленькая алиф над буквой (مَـٰلِكِ) тянутся на два счёта.",
+ "items": [
+  {
+   "type": "word",
+   "ar": "أَحَدٌ",
+   "loc": "112:1:4",
+   "audio": "https://audio.qurancdn.com/wbw/112_001_004.mp3",
+   "translit": "aḥadun"
+  },
+  {
+   "type": "word",
+   "ar": "كُفُوًا",
+   "loc": "112:4:4",
+   "audio": "https://audio.qurancdn.com/wbw/112_004_004.mp3",
+   "translit": "kufuwan"
+  },
+  {
+   "type": "word",
+   "ar": "نَارٌ",
+   "loc": "101:11:1",
+   "audio": "https://audio.qurancdn.com/wbw/101_011_001.mp3",
+   "translit": "nārun"
+  },
+  {
+   "type": "word",
+   "ar": "سَلَـٰمٌ",
+   "loc": "97:5:1",
+   "audio": "https://audio.qurancdn.com/wbw/097_005_001.mp3",
+   "translit": "salāmun"
+  },
+  {
+   "type": "word",
+   "ar": "عَبْدًا",
+   "loc": "96:10:1",
+   "audio": "https://audio.qurancdn.com/wbw/096_010_001.mp3",
+   "translit": "ʿabdan"
+  },
+  {
+   "type": "word",
+   "ar": "يُسْرًا",
+   "loc": "94:5:4",
+   "audio": "https://audio.qurancdn.com/wbw/094_005_004.mp3",
+   "translit": "yus'ran"
+  },
+  {
+   "type": "word",
+   "ar": "قَالَ",
+   "loc": "83:13:5",
+   "audio": "https://audio.qurancdn.com/wbw/083_013_005.mp3",
+   "translit": "qāla"
+  },
+  {
+   "type": "word",
+   "ar": "كَانَ",
+   "loc": "110:3:6",
+   "audio": "https://audio.qurancdn.com/wbw/110_003_007.mp3",
+   "translit": "kāna"
+  },
+  {
+   "type": "word",
+   "ar": "دِينِ",
+   "loc": "110:2:5",
+   "audio": "https://audio.qurancdn.com/wbw/110_002_005.mp3",
+   "translit": "dīni"
+  },
+  {
+   "type": "word",
+   "ar": "أَعُوذُ",
+   "loc": "113:1:2",
+   "audio": "https://audio.qurancdn.com/wbw/113_001_002.mp3",
+   "translit": "aʿūdhu"
+  },
+  {
+   "type": "word",
+   "ar": "مَـٰلِكِ",
+   "loc": "1:4:1",
+   "audio": "https://audio.qurancdn.com/wbw/001_004_001.mp3",
+   "translit": "māliki"
+  },
+  {
+   "type": "word",
+   "ar": "صِرَٰطَ",
+   "loc": "1:7:1",
+   "audio": "https://audio.qurancdn.com/wbw/001_007_001.mp3",
+   "translit": "ṣirāṭa"
+  }
+ ]
+}

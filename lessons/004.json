@@ -1,0 +1,66 @@
+{
+ "id": "004",
+ "title": "Сукун: короткие слова",
+ "subtitle": "Буква без гласной ( ْ )",
+ "level": 2,
+ "targetSeconds": 30,
+ "tip": "Буква с сукуном читается без гласной и «закрывает» слог: قُلْ — «куль», одним коротким толчком.",
+ "items": [
+  {
+   "type": "word",
+   "ar": "قُلْ",
+   "loc": "112:1:1",
+   "audio": "https://audio.qurancdn.com/wbw/112_001_001.mp3",
+   "translit": "qul"
+  },
+  {
+   "type": "word",
+   "ar": "لَمْ",
+   "loc": "112:3:1",
+   "audio": "https://audio.qurancdn.com/wbw/112_003_001.mp3",
+   "translit": "lam"
+  },
+  {
+   "type": "word",
+   "ar": "مِنْ",
+   "loc": "98:1:5",
+   "audio": "https://audio.qurancdn.com/wbw/098_001_005.mp3",
+   "translit": "min"
+  },
+  {
+   "type": "word",
+   "ar": "هَلْ",
+   "loc": "89:5:1",
+   "audio": "https://audio.qurancdn.com/wbw/089_005_001.mp3",
+   "translit": "hal"
+  },
+  {
+   "type": "word",
+   "ar": "بِسْمِ",
+   "loc": "1:1:1",
+   "audio": "https://audio.qurancdn.com/wbw/001_001_001.mp3",
+   "translit": "bis'mi"
+  },
+  {
+   "type": "word",
+   "ar": "يَوْمِ",
+   "loc": "1:4:2",
+   "audio": "https://audio.qurancdn.com/wbw/001_004_002.mp3",
+   "translit": "yawmi"
+  },
+  {
+   "type": "word",
+   "ar": "لَكُمْ",
+   "loc": "109:6:1",
+   "audio": "https://audio.qurancdn.com/wbw/109_006_001.mp3",
+   "translit": "lakum"
+  },
+  {
+   "type": "word",
+   "ar": "يَلِدْ",
+   "loc": "112:3:2",
+   "audio": "https://audio.qurancdn.com/wbw/112_003_002.mp3",
+   "translit": "yalid"
+  }
+ ]
+}

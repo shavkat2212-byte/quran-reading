@@ -1,0 +1,52 @@
+{
+ "id": "001",
+ "title": "Короткие слова из 2 букв",
+ "subtitle": "Фатха, касра, дамма",
+ "level": 1,
+ "targetSeconds": 30,
+ "tip": "Читайте букву вместе с огласовкой как один слог: не по отдельным буквам, а сразу «ху-ва». Смотрите на слово целиком.",
+ "items": [
+  {
+   "type": "word",
+   "ar": "هُوَ",
+   "loc": "112:1:2",
+   "audio": "https://audio.qurancdn.com/wbw/112_001_002.mp3",
+   "translit": "huwa"
+  },
+  {
+   "type": "word",
+   "ar": "لَكَ",
+   "loc": "94:1:3",
+   "audio": "https://audio.qurancdn.com/wbw/094_001_003.mp3",
+   "translit": "laka"
+  },
+  {
+   "type": "word",
+   "ar": "مَعَ",
+   "loc": "94:5:2",
+   "audio": "https://audio.qurancdn.com/wbw/094_005_002.mp3",
+   "translit": "maʿa"
+  },
+  {
+   "type": "word",
+   "ar": "مِنَ",
+   "loc": "114:6:1",
+   "audio": "https://audio.qurancdn.com/wbw/114_006_001.mp3",
+   "translit": "mina"
+  },
+  {
+   "type": "word",
+   "ar": "لَهُ",
+   "loc": "98:5:7",
+   "audio": "https://audio.qurancdn.com/wbw/098_005_007.mp3",
+   "translit": "lahu"
+  },
+  {
+   "type": "word",
+   "ar": "هُمُ",
+   "loc": "80:42:2",
+   "audio": "https://audio.qurancdn.com/wbw/080_042_002.mp3",
+   "translit": "humu"
+  }
+ ]
+}
