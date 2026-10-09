@@ -1,0 +1,152 @@
+{
+ "id": "L14",
+ "section": "letters",
+ "title": "Фатха: ба, та, са…",
+ "subtitle": "Все буквы с фатхой ( َ )",
+ "level": 3,
+ "targetSeconds": 60,
+ "showHints": true,
+ "tip": "Фатха — чёрточка над буквой, звук «а». Читайте ровно, в одном темпе, не растягивая.",
+ "items": [
+  {
+   "type": "letter",
+   "ar": "أَ",
+   "name": "а"
+  },
+  {
+   "type": "letter",
+   "ar": "بَ",
+   "name": "ба"
+  },
+  {
+   "type": "letter",
+   "ar": "تَ",
+   "name": "та"
+  },
+  {
+   "type": "letter",
+   "ar": "ثَ",
+   "name": "с̱а"
+  },
+  {
+   "type": "letter",
+   "ar": "جَ",
+   "name": "джа"
+  },
+  {
+   "type": "letter",
+   "ar": "حَ",
+   "name": "х̣а"
+  },
+  {
+   "type": "letter",
+   "ar": "خَ",
+   "name": "ха"
+  },
+  {
+   "type": "letter",
+   "ar": "دَ",
+   "name": "да"
+  },
+  {
+   "type": "letter",
+   "ar": "ذَ",
+   "name": "з̱а"
+  },
+  {
+   "type": "letter",
+   "ar": "رَ",
+   "name": "ра"
+  },
+  {
+   "type": "letter",
+   "ar": "زَ",
+   "name": "за"
+  },
+  {
+   "type": "letter",
+   "ar": "سَ",
+   "name": "са"
+  },
+  {
+   "type": "letter",
+   "ar": "شَ",
+   "name": "ша"
+  },
+  {
+   "type": "letter",
+   "ar": "صَ",
+   "name": "с̣а"
+  },
+  {
+   "type": "letter",
+   "ar": "ضَ",
+   "name": "д̣а"
+  },
+  {
+   "type": "letter",
+   "ar": "طَ",
+   "name": "т̣а"
+  },
+  {
+   "type": "letter",
+   "ar": "ظَ",
+   "name": "з̣а"
+  },
+  {
+   "type": "letter",
+   "ar": "عَ",
+   "name": "ʿа"
+  },
+  {
+   "type": "letter",
+   "ar": "غَ",
+   "name": "ға"
+  },
+  {
+   "type": "letter",
+   "ar": "فَ",
+   "name": "фа"
+  },
+  {
+   "type": "letter",
+   "ar": "قَ",
+   "name": "қа"
+  },
+  {
+   "type": "letter",
+   "ar": "كَ",
+   "name": "ка"
+  },
+  {
+   "type": "letter",
+   "ar": "لَ",
+   "name": "ла"
+  },
+  {
+   "type": "letter",
+   "ar": "مَ",
+   "name": "ма"
+  },
+  {
+   "type": "letter",
+   "ar": "نَ",
+   "name": "на"
+  },
+  {
+   "type": "letter",
+   "ar": "هَ",
+   "name": "һа"
+  },
+  {
+   "type": "letter",
+   "ar": "وَ",
+   "name": "ва"
+  },
+  {
+   "type": "letter",
+   "ar": "يَ",
+   "name": "йа"
+  }
+ ]
+}

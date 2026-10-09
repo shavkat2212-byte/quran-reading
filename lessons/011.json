@@ -1,0 +1,94 @@
+{
+ "id": "011",
+ "title": "Длинные слова: 7–9 букв",
+ "subtitle": "Быстрое узнавание длинных слов",
+ "level": 4,
+ "targetSeconds": 36,
+ "tip": "Длинное слово собирается из знакомых кусков: приставка (وَ، فَ، بِ، لِ), артикль ٱل, корень и окончание (ـُونَ، ـِينَ، ـَـٰتِ). Найдите глазом эти куски — и слово прочитается сразу.",
+ "items": [
+  {
+   "type": "word",
+   "ar": "ٱلْقَارِعَةُ",
+   "loc": "101:1:1",
+   "audio": "https://audio.qurancdn.com/wbw/101_001_001.mp3",
+   "translit": "al-qāriʿatu"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلتَّكَاثُرُ",
+   "loc": "102:1:2",
+   "audio": "https://audio.qurancdn.com/wbw/102_001_002.mp3",
+   "translit": "l-takāthuru"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلْمَاعُونَ",
+   "loc": "107:7:2",
+   "audio": "https://audio.qurancdn.com/wbw/107_007_002.mp3",
+   "translit": "l-māʿūna"
+  },
+  {
+   "type": "word",
+   "ar": "زِلْزَالَهَا",
+   "loc": "99:1:4",
+   "audio": "https://audio.qurancdn.com/wbw/099_001_004.mp3",
+   "translit": "zil'zālahā"
+  },
+  {
+   "type": "word",
+   "ar": "أَثْقَالَهَا",
+   "loc": "99:2:3",
+   "audio": "https://audio.qurancdn.com/wbw/099_002_003.mp3",
+   "translit": "athqālahā"
+  },
+  {
+   "type": "word",
+   "ar": "وَٱلْعَـٰدِيَـٰتِ",
+   "loc": "100:1:1",
+   "audio": "https://audio.qurancdn.com/wbw/100_001_001.mp3",
+   "translit": "wal-ʿādiyāti"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلْمَبْثُوثِ",
+   "loc": "101:4:5",
+   "audio": "https://audio.qurancdn.com/wbw/101_004_005.mp3",
+   "translit": "l-mabthūthi"
+  },
+  {
+   "type": "word",
+   "ar": "وَٱلزَّيْتُونِ",
+   "loc": "95:1:2",
+   "audio": "https://audio.qurancdn.com/wbw/095_001_002.mp3",
+   "translit": "wal-zaytūni"
+  },
+  {
+   "type": "word",
+   "ar": "سَيَعْلَمُونَ",
+   "loc": "78:4:2",
+   "audio": "https://audio.qurancdn.com/wbw/078_004_002.mp3",
+   "translit": "sayaʿlamūna"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلْمُؤْمِنِينَ",
+   "loc": "85:10:4",
+   "audio": "https://audio.qurancdn.com/wbw/085_010_004.mp3",
+   "translit": "l-mu'minīna"
+  },
+  {
+   "type": "word",
+   "ar": "وَٱلْمُشْرِكِينَ",
+   "loc": "98:1:8",
+   "audio": "https://audio.qurancdn.com/wbw/098_001_008.mp3",
+   "translit": "wal-mush'rikīna"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلْمُتَنَـٰفِسُونَ",
+   "loc": "83:26:6",
+   "audio": "https://audio.qurancdn.com/wbw/083_026_006.mp3",
+   "translit": "l-mutanāfisūna"
+  }
+ ]
+}

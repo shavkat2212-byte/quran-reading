@@ -1,0 +1,138 @@
+[
+ {
+  "id": "L01",
+  "title": "Алиф, Ба, Та, Са",
+  "subtitle": "ا ب ت ث",
+  "level": 1,
+  "count": 4,
+  "targetSeconds": 15
+ },
+ {
+  "id": "L02",
+  "title": "Джим, Ха, Хо",
+  "subtitle": "ج ح خ",
+  "level": 1,
+  "count": 3,
+  "targetSeconds": 15
+ },
+ {
+  "id": "L03",
+  "title": "Даль, Заль, Ра, Зай",
+  "subtitle": "د ذ ر ز",
+  "level": 1,
+  "count": 4,
+  "targetSeconds": 15
+ },
+ {
+  "id": "L04",
+  "title": "Син, Шин, Сод, Дод",
+  "subtitle": "س ش ص ض",
+  "level": 1,
+  "count": 4,
+  "targetSeconds": 18
+ },
+ {
+  "id": "L05",
+  "title": "То, Зо, Айн, Гойн",
+  "subtitle": "ط ظ ع غ",
+  "level": 1,
+  "count": 4,
+  "targetSeconds": 18
+ },
+ {
+  "id": "L06",
+  "title": "Фа, Коф, Каф, Лям",
+  "subtitle": "ف ق ك ل",
+  "level": 1,
+  "count": 4,
+  "targetSeconds": 18
+ },
+ {
+  "id": "L07",
+  "title": "Мим, Нун, Ха, Вав, Йа",
+  "subtitle": "م ن ه و ي",
+  "level": 1,
+  "count": 5,
+  "targetSeconds": 20
+ },
+ {
+  "id": "L08",
+  "title": "Хамза, та марбута, алиф максура",
+  "subtitle": "ء أ إ ؤ ئ ة ى",
+  "level": 2,
+  "count": 7,
+  "targetSeconds": 25
+ },
+ {
+  "id": "L09",
+  "title": "Все 28 букв по порядку",
+  "subtitle": "Повторение алфавита",
+  "level": 2,
+  "count": 28,
+  "targetSeconds": 60
+ },
+ {
+  "id": "L10",
+  "title": "Формы букв: Ба, Та, Са, Нун, Йа",
+  "subtitle": "Начало · середина · конец слова",
+  "level": 2,
+  "count": 5,
+  "targetSeconds": 30
+ },
+ {
+  "id": "L11",
+  "title": "Формы букв: Джим…Коф",
+  "subtitle": "ج ح خ ع غ ه ف ق",
+  "level": 2,
+  "count": 8,
+  "targetSeconds": 40
+ },
+ {
+  "id": "L12",
+  "title": "Формы букв: Син…Мим",
+  "subtitle": "س ش ص ض ط ظ ك ل م",
+  "level": 3,
+  "count": 9,
+  "targetSeconds": 40
+ },
+ {
+  "id": "L13",
+  "title": "Буквы, которые не соединяются слева",
+  "subtitle": "ا د ذ ر ز و",
+  "level": 3,
+  "count": 6,
+  "targetSeconds": 20
+ },
+ {
+  "id": "L14",
+  "title": "Фатха: ба, та, са…",
+  "subtitle": "Все буквы с фатхой ( َ )",
+  "level": 3,
+  "count": 28,
+  "targetSeconds": 60
+ },
+ {
+  "id": "L15",
+  "title": "Касра: би, ти, си…",
+  "subtitle": "Все буквы с касрой ( ِ )",
+  "level": 3,
+  "count": 28,
+  "targetSeconds": 55
+ },
+ {
+  "id": "L16",
+  "title": "Дамма: бу, ту, су…",
+  "subtitle": "Все буквы с даммой ( ُ )",
+  "level": 3,
+  "count": 28,
+  "targetSeconds": 50
+ },
+ {
+  "id": "L17",
+  "title": "Огласовки вперемешку",
+  "subtitle": "а · и · у в случайном порядке",
+  "level": 4,
+  "count": 24,
+  "targetSeconds": 40
+ }
+]

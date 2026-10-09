@@ -1,0 +1,152 @@
+{
+ "id": "L15",
+ "section": "letters",
+ "title": "Касра: би, ти, си…",
+ "subtitle": "Все буквы с касрой ( ِ )",
+ "level": 3,
+ "targetSeconds": 55,
+ "showHints": true,
+ "tip": "Касра — чёрточка под буквой, звук «и».",
+ "items": [
+  {
+   "type": "letter",
+   "ar": "إِ",
+   "name": "и"
+  },
+  {
+   "type": "letter",
+   "ar": "بِ",
+   "name": "би"
+  },
+  {
+   "type": "letter",
+   "ar": "تِ",
+   "name": "ти"
+  },
+  {
+   "type": "letter",
+   "ar": "ثِ",
+   "name": "с̱и"
+  },
+  {
+   "type": "letter",
+   "ar": "جِ",
+   "name": "джи"
+  },
+  {
+   "type": "letter",
+   "ar": "حِ",
+   "name": "х̣и"
+  },
+  {
+   "type": "letter",
+   "ar": "خِ",
+   "name": "хи"
+  },
+  {
+   "type": "letter",
+   "ar": "دِ",
+   "name": "ди"
+  },
+  {
+   "type": "letter",
+   "ar": "ذِ",
+   "name": "з̱и"
+  },
+  {
+   "type": "letter",
+   "ar": "رِ",
+   "name": "ри"
+  },
+  {
+   "type": "letter",
+   "ar": "زِ",
+   "name": "зи"
+  },
+  {
+   "type": "letter",
+   "ar": "سِ",
+   "name": "си"
+  },
+  {
+   "type": "letter",
+   "ar": "شِ",
+   "name": "ши"
+  },
+  {
+   "type": "letter",
+   "ar": "صِ",
+   "name": "с̣и"
+  },
+  {
+   "type": "letter",
+   "ar": "ضِ",
+   "name": "д̣и"
+  },
+  {
+   "type": "letter",
+   "ar": "طِ",
+   "name": "т̣и"
+  },
+  {
+   "type": "letter",
+   "ar": "ظِ",
+   "name": "з̣и"
+  },
+  {
+   "type": "letter",
+   "ar": "عِ",
+   "name": "ʿи"
+  },
+  {
+   "type": "letter",
+   "ar": "غِ",
+   "name": "ғи"
+  },
+  {
+   "type": "letter",
+   "ar": "فِ",
+   "name": "фи"
+  },
+  {
+   "type": "letter",
+   "ar": "قِ",
+   "name": "қи"
+  },
+  {
+   "type": "letter",
+   "ar": "كِ",
+   "name": "ки"
+  },
+  {
+   "type": "letter",
+   "ar": "لِ",
+   "name": "ли"
+  },
+  {
+   "type": "letter",
+   "ar": "مِ",
+   "name": "ми"
+  },
+  {
+   "type": "letter",
+   "ar": "نِ",
+   "name": "ни"
+  },
+  {
+   "type": "letter",
+   "ar": "هِ",
+   "name": "һи"
+  },
+  {
+   "type": "letter",
+   "ar": "وِ",
+   "name": "ви"
+  },
+  {
+   "type": "letter",
+   "ar": "يِ",
+   "name": "йи"
+  }
+ ]
+}

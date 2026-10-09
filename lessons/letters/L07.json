@@ -1,0 +1,37 @@
+{
+ "id": "L07",
+ "section": "letters",
+ "title": "Мим, Нун, Ха, Вав, Йа",
+ "subtitle": "م ن ه و ي",
+ "level": 1,
+ "targetSeconds": 20,
+ "showHints": true,
+ "tip": "Нун — чаша с точкой. Ха (лёгкая) ه отличается от ح. Вав и Йа бывают и согласными, и долгими гласными.",
+ "items": [
+  {
+   "type": "letter",
+   "ar": "م",
+   "name": "Мим"
+  },
+  {
+   "type": "letter",
+   "ar": "ن",
+   "name": "Нун"
+  },
+  {
+   "type": "letter",
+   "ar": "ه",
+   "name": "Ха (лёгкая)"
+  },
+  {
+   "type": "letter",
+   "ar": "و",
+   "name": "Вав"
+  },
+  {
+   "type": "letter",
+   "ar": "ي",
+   "name": "Йа"
+  }
+ ]
+}

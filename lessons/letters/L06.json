@@ -1,0 +1,32 @@
+{
+ "id": "L06",
+ "section": "letters",
+ "title": "Фа, Коф, Каф, Лям",
+ "subtitle": "ف ق ك ل",
+ "level": 1,
+ "targetSeconds": 18,
+ "showHints": true,
+ "tip": "Фа — одна точка, Коф — две точки и хвост ниже строки. Каф — с «загогулиной» внутри, Лям — высокий крючок.",
+ "items": [
+  {
+   "type": "letter",
+   "ar": "ف",
+   "name": "Фа"
+  },
+  {
+   "type": "letter",
+   "ar": "ق",
+   "name": "Коф"
+  },
+  {
+   "type": "letter",
+   "ar": "ك",
+   "name": "Каф"
+  },
+  {
+   "type": "letter",
+   "ar": "ل",
+   "name": "Лям"
+  }
+ ]
+}

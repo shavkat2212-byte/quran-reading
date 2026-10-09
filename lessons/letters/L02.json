@@ -1,0 +1,27 @@
+{
+ "id": "L02",
+ "section": "letters",
+ "title": "Джим, Ха, Хо",
+ "subtitle": "ج ح خ",
+ "level": 1,
+ "targetSeconds": 15,
+ "showHints": true,
+ "tip": "Одна форма: точка внутри (ج), без точки (ح), точка сверху (خ).",
+ "items": [
+  {
+   "type": "letter",
+   "ar": "ج",
+   "name": "Джим"
+  },
+  {
+   "type": "letter",
+   "ar": "ح",
+   "name": "Ха (гортанная)"
+  },
+  {
+   "type": "letter",
+   "ar": "خ",
+   "name": "Хо"
+  }
+ ]
+}

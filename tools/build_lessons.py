@@ -11,9 +11,14 @@ def best(loc):
     occ = [w for w in words if w['t'] == t]
     occ.sort(key=lambda w: (PRIO.index(int(w['loc'].split(':')[0])), [int(x) for x in w['loc'].split(':')]))
     return occ[0]
+# Звук слова: файл wbw/SSS_AAA_WWW.mp3 по номеру слова. Поле audio_url в API после знаков
+# остановки (ۖ ۚ ۜ ۞) сдвигается на 1–2 и указывает на чужое/несуществующее слово, поэтому строим путь сами.
+def wbw(loc):
+    s, a, p = map(int, loc.split(':'))
+    return WBW + f"wbw/{s:03d}_{a:03d}_{p:03d}.mp3"
 def item(loc):
     w = best(loc)
-    d = {"type": "word", "ar": w['t'], "loc": w['loc'], "audio": WBW + w['audio']}
+    d = {"type": "word", "ar": w['t'], "loc": w['loc'], "audio": wbw(w['loc'])}
     if w['tr']: d["translit"] = w['tr']
     return d
 verses = {}
@@ -25,7 +30,7 @@ def ayah(key):
     ws = [w for w in v['words'] if w['char_type_name'] == 'word']
     return {"type": "ayah", "key": key, "ar": " ".join(w['text_uthmani'] for w in ws),
             "audio": AYAH.format(s=s, a=a),
-            "words": [{"ar": w['text_uthmani'], "loc": f"{key}:{w['position']}", "audio": WBW + w['audio_url'],
+            "words": [{"ar": w['text_uthmani'], "loc": f"{key}:{w['position']}", "audio": wbw(f"{key}:{w['position']}"),
                        **({"translit": w['transliteration']['text']} if (w.get('transliteration') or {}).get('text') else {})} for w in ws]}
 
 L = [
@@ -73,5 +78,48 @@ les = {"id": lid, "title": "Целые аяты: сура аль-Ихлас и �
        "items": [ayah(k) for k in ["112:1","112:2","112:3","112:4","108:1","108:2","108:3"]]}
 json.dump(les, open(f"lessons/{lid}.json", "w"), ensure_ascii=False, indent=1)
 index.append({"id": lid, "title": les['title'], "subtitle": les['subtitle'], "level": LEVEL[9], "count": len(les['items']), "targetSeconds": TARGET[9]})
-json.dump({"title": "Самоучитель чтения Корана", "lessons": index}, open("lessons/index.json", "w"), ensure_ascii=False, indent=1)
-for x in index: print(x['id'], x['title'])
+
+# ---- уроки 11–15 ----
+def words_target(items, per_word):
+    n = sum(len(it["words"]) if it["type"] == "ayah" else 1 for it in items)
+    return int(round(n * per_word / 5.0) * 5)
+NEW = [
+ ("Длинные слова: 7–9 букв", "Быстрое узнавание длинных слов", 4, 36,
+  "Длинное слово собирается из знакомых кусков: приставка (وَ، فَ، بِ، لِ), артикль ٱل, корень и окончание (ـُونَ، ـِينَ، ـَـٰتِ). Найдите глазом эти куски — и слово прочитается сразу.",
+  ["101:1:1","102:1:2","107:7:2","99:1:4","99:2:3","100:1:1","101:4:5","95:1:2","78:4:2","85:10:4","98:1:8","83:26:6"]),
+ ("Сукун и шадда в одном слове", "ٱلشَّمْسُ، فَسَبِّحْ، ٱلْمُطْمَئِنَّةُ", 4, 32,
+  "В этих словах есть и сукун, и шадда. Не останавливайтесь на сукуне и не «проглатывайте» шадду: удвоенная буква — чуть дольше, буква с сукуном — коротко и сразу дальше.",
+  ["81:1:2","89:27:3","78:31:2","84:1:3","84:19:1","84:24:1","87:9:1","90:17:7","98:1:12","102:8:2","110:3:1","81:18:1"]),
+]
+for title, sub, level, target, tip, locs in NEW:
+    i = len(index) + 1; lid = f"{i:03d}"
+    items = [item(l) for l in locs]
+    assert len({x['ar'] for x in items}) == len(items)
+    les = {"id": lid, "title": title, "subtitle": sub, "level": level, "targetSeconds": target, "tip": tip, "items": items}
+    json.dump(les, open(f"lessons/{lid}.json", "w"), ensure_ascii=False, indent=1)
+    index.append({"id": lid, "title": title, "subtitle": sub, "level": level, "count": len(items), "targetSeconds": target})
+AY = [
+ ("Знаки остановки (вакф)", "Значки ـۖ ـۚ ـۜ внутри аята", 5, 2.0,
+  "Маленькие значки над строкой подсказывают, где можно остановиться. ـۖ («сала») — можно остановиться, но лучше продолжить. ـۚ («джим») — можно и остановиться, и продолжить. ـۜ (сакта) — короткая пауза без нового вдоха. Кружок с номером в конце аята — обычное место остановки. Если остановились на слове — последнюю огласовку обычно не произносим.",
+  ["89:17","104:4","79:27","83:26","110:3","87:7","83:14","78:39"]),
+ ("Сура аль-Аср и сура аль-Фалак", "Целые суры: по словам, потом целиком", 5, 1.9,
+  "Прочитайте каждый аят по словам, затем весь аят. В конце прочитайте всю суру подряд, не глядя на подсказки.",
+  [f"103:{a}" for a in range(1, 4)] + [f"113:{a}" for a in range(1, 6)]),
+ ("Сура ан-Нас и сура аль-Кафирун", "Целые суры в хорошем темпе", 5, 1.7,
+  "Цель — ровный темп без остановок внутри слов. Сравните своё время с прошлыми попытками.",
+  [f"114:{a}" for a in range(1, 7)] + [f"109:{a}" for a in range(1, 7)]),
+]
+for title, sub, level, per_word, tip, keys in AY:
+    i = len(index) + 1; lid = f"{i:03d}"
+    items = [ayah(k) for k in keys]
+    target = words_target(items, per_word)
+    les = {"id": lid, "title": title, "subtitle": sub, "level": level, "targetSeconds": target, "tip": tip, "items": items}
+    json.dump(les, open(f"lessons/{lid}.json", "w"), ensure_ascii=False, indent=1)
+    index.append({"id": lid, "title": title, "subtitle": sub, "level": level, "count": len(items), "targetSeconds": target})
+letters = json.load(open("lessons/letters/_list.json"))
+json.dump({"title": "Самоучитель чтения Корана", "owner": "Шавкат Ташходжаев",
+           "sections": [
+             {"id": "letters", "title": "Буквы", "dir": "letters", "lessons": letters},
+             {"id": "reading", "title": "Чтение: слова и аяты", "dir": "", "lessons": index}]},
+          open("lessons/index.json", "w"), ensure_ascii=False, indent=1)
+for x in index: print(x['id'], x['count'], x['targetSeconds'], x['title'])

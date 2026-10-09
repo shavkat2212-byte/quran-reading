@@ -1,0 +1,152 @@
+{
+ "id": "L16",
+ "section": "letters",
+ "title": "Дамма: бу, ту, су…",
+ "subtitle": "Все буквы с даммой ( ُ )",
+ "level": 3,
+ "targetSeconds": 50,
+ "showHints": true,
+ "tip": "Дамма — маленькая вав над буквой, звук «у».",
+ "items": [
+  {
+   "type": "letter",
+   "ar": "أُ",
+   "name": "у"
+  },
+  {
+   "type": "letter",
+   "ar": "بُ",
+   "name": "бу"
+  },
+  {
+   "type": "letter",
+   "ar": "تُ",
+   "name": "ту"
+  },
+  {
+   "type": "letter",
+   "ar": "ثُ",
+   "name": "с̱у"
+  },
+  {
+   "type": "letter",
+   "ar": "جُ",
+   "name": "джу"
+  },
+  {
+   "type": "letter",
+   "ar": "حُ",
+   "name": "х̣у"
+  },
+  {
+   "type": "letter",
+   "ar": "خُ",
+   "name": "ху"
+  },
+  {
+   "type": "letter",
+   "ar": "دُ",
+   "name": "ду"
+  },
+  {
+   "type": "letter",
+   "ar": "ذُ",
+   "name": "з̱у"
+  },
+  {
+   "type": "letter",
+   "ar": "رُ",
+   "name": "ру"
+  },
+  {
+   "type": "letter",
+   "ar": "زُ",
+   "name": "зу"
+  },
+  {
+   "type": "letter",
+   "ar": "سُ",
+   "name": "су"
+  },
+  {
+   "type": "letter",
+   "ar": "شُ",
+   "name": "шу"
+  },
+  {
+   "type": "letter",
+   "ar": "صُ",
+   "name": "с̣у"
+  },
+  {
+   "type": "letter",
+   "ar": "ضُ",
+   "name": "д̣у"
+  },
+  {
+   "type": "letter",
+   "ar": "طُ",
+   "name": "т̣у"
+  },
+  {
+   "type": "letter",
+   "ar": "ظُ",
+   "name": "з̣у"
+  },
+  {
+   "type": "letter",
+   "ar": "عُ",
+   "name": "ʿу"
+  },
+  {
+   "type": "letter",
+   "ar": "غُ",
+   "name": "ғу"
+  },
+  {
+   "type": "letter",
+   "ar": "فُ",
+   "name": "фу"
+  },
+  {
+   "type": "letter",
+   "ar": "قُ",
+   "name": "қу"
+  },
+  {
+   "type": "letter",
+   "ar": "كُ",
+   "name": "ку"
+  },
+  {
+   "type": "letter",
+   "ar": "لُ",
+   "name": "лу"
+  },
+  {
+   "type": "letter",
+   "ar": "مُ",
+   "name": "му"
+  },
+  {
+   "type": "letter",
+   "ar": "نُ",
+   "name": "ну"
+  },
+  {
+   "type": "letter",
+   "ar": "هُ",
+   "name": "һу"
+  },
+  {
+   "type": "letter",
+   "ar": "وُ",
+   "name": "ву"
+  },
+  {
+   "type": "letter",
+   "ar": "يُ",
+   "name": "йу"
+  }
+ ]
+}

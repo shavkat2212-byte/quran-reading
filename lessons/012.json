@@ -1,0 +1,94 @@
+{
+ "id": "012",
+ "title": "Сукун и шадда в одном слове",
+ "subtitle": "ٱلشَّمْسُ، فَسَبِّحْ، ٱلْمُطْمَئِنَّةُ",
+ "level": 4,
+ "targetSeconds": 32,
+ "tip": "В этих словах есть и сукун, и шадда. Не останавливайтесь на сукуне и не «проглатывайте» шадду: удвоенная буква — чуть дольше, буква с сукуном — коротко и сразу дальше.",
+ "items": [
+  {
+   "type": "word",
+   "ar": "ٱلشَّمْسُ",
+   "loc": "81:1:2",
+   "audio": "https://audio.qurancdn.com/wbw/081_001_002.mp3",
+   "translit": "l-shamsu"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلْمُطْمَئِنَّةُ",
+   "loc": "89:27:3",
+   "audio": "https://audio.qurancdn.com/wbw/089_027_003.mp3",
+   "translit": "l-muṭ'ma-inatu"
+  },
+  {
+   "type": "word",
+   "ar": "لِلْمُتَّقِينَ",
+   "loc": "78:31:2",
+   "audio": "https://audio.qurancdn.com/wbw/078_031_002.mp3",
+   "translit": "lil'muttaqīna"
+  },
+  {
+   "type": "word",
+   "ar": "ٱنشَقَّتْ",
+   "loc": "84:1:3",
+   "audio": "https://audio.qurancdn.com/wbw/084_001_003.mp3",
+   "translit": "inshaqqat"
+  },
+  {
+   "type": "word",
+   "ar": "لَتَرْكَبُنَّ",
+   "loc": "84:19:1",
+   "audio": "https://audio.qurancdn.com/wbw/084_019_001.mp3",
+   "translit": "latarkabunna"
+  },
+  {
+   "type": "word",
+   "ar": "فَبَشِّرْهُم",
+   "loc": "84:24:1",
+   "audio": "https://audio.qurancdn.com/wbw/084_024_001.mp3",
+   "translit": "fabashir'hum"
+  },
+  {
+   "type": "word",
+   "ar": "فَذَكِّرْ",
+   "loc": "88:21:1",
+   "audio": "https://audio.qurancdn.com/wbw/088_021_001.mp3",
+   "translit": "fadhakkir"
+  },
+  {
+   "type": "word",
+   "ar": "بِٱلصَّبْرِ",
+   "loc": "103:3:9",
+   "audio": "https://audio.qurancdn.com/wbw/103_003_009.mp3",
+   "translit": "bil-ṣabri"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلْبَيِّنَةُ",
+   "loc": "98:1:12",
+   "audio": "https://audio.qurancdn.com/wbw/098_001_012.mp3",
+   "translit": "l-bayinatu"
+  },
+  {
+   "type": "word",
+   "ar": "لَتُسْـَٔلُنَّ",
+   "loc": "102:8:2",
+   "audio": "https://audio.qurancdn.com/wbw/102_008_002.mp3",
+   "translit": "latus'alunna"
+  },
+  {
+   "type": "word",
+   "ar": "فَسَبِّحْ",
+   "loc": "110:3:1",
+   "audio": "https://audio.qurancdn.com/wbw/110_003_001.mp3",
+   "translit": "fasabbiḥ"
+  },
+  {
+   "type": "word",
+   "ar": "وَٱلصُّبْحِ",
+   "loc": "81:18:1",
+   "audio": "https://audio.qurancdn.com/wbw/081_018_001.mp3",
+   "translit": "wal-ṣub'ḥi"
+  }
+ ]
+}

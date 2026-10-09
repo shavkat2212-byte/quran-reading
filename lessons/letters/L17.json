@@ -1,0 +1,132 @@
+{
+ "id": "L17",
+ "section": "letters",
+ "title": "Огласовки вперемешку",
+ "subtitle": "а · и · у в случайном порядке",
+ "level": 4,
+ "targetSeconds": 40,
+ "showHints": true,
+ "tip": "Здесь буквы и огласовки идут вразнобой — смотрите и на букву, и на огласовку.",
+ "items": [
+  {
+   "type": "letter",
+   "ar": "فُ",
+   "name": "фу"
+  },
+  {
+   "type": "letter",
+   "ar": "تَ",
+   "name": "та"
+  },
+  {
+   "type": "letter",
+   "ar": "فِ",
+   "name": "фи"
+  },
+  {
+   "type": "letter",
+   "ar": "لُ",
+   "name": "лу"
+  },
+  {
+   "type": "letter",
+   "ar": "تِ",
+   "name": "ти"
+  },
+  {
+   "type": "letter",
+   "ar": "طِ",
+   "name": "т̣и"
+  },
+  {
+   "type": "letter",
+   "ar": "ضُ",
+   "name": "д̣у"
+  },
+  {
+   "type": "letter",
+   "ar": "ثُ",
+   "name": "с̱у"
+  },
+  {
+   "type": "letter",
+   "ar": "نُ",
+   "name": "ну"
+  },
+  {
+   "type": "letter",
+   "ar": "ظُ",
+   "name": "з̣у"
+  },
+  {
+   "type": "letter",
+   "ar": "شُ",
+   "name": "шу"
+  },
+  {
+   "type": "letter",
+   "ar": "مَ",
+   "name": "ма"
+  },
+  {
+   "type": "letter",
+   "ar": "طَ",
+   "name": "т̣а"
+  },
+  {
+   "type": "letter",
+   "ar": "لِ",
+   "name": "ли"
+  },
+  {
+   "type": "letter",
+   "ar": "ذُ",
+   "name": "з̱у"
+  },
+  {
+   "type": "letter",
+   "ar": "قِ",
+   "name": "қи"
+  },
+  {
+   "type": "letter",
+   "ar": "سَ",
+   "name": "са"
+  },
+  {
+   "type": "letter",
+   "ar": "تُ",
+   "name": "ту"
+  },
+  {
+   "type": "letter",
+   "ar": "نَ",
+   "name": "на"
+  },
+  {
+   "type": "letter",
+   "ar": "ظَ",
+   "name": "з̣а"
+  },
+  {
+   "type": "letter",
+   "ar": "غِ",
+   "name": "ғи"
+  },
+  {
+   "type": "letter",
+   "ar": "شِ",
+   "name": "ши"
+  },
+  {
+   "type": "letter",
+   "ar": "غَ",
+   "name": "ға"
+  },
+  {
+   "type": "letter",
+   "ar": "هُ",
+   "name": "һу"
+  }
+ ]
+}

@@ -1,0 +1,152 @@
+{
+ "id": "L09",
+ "section": "letters",
+ "title": "Все 28 букв по порядку",
+ "subtitle": "Повторение алфавита",
+ "level": 2,
+ "targetSeconds": 60,
+ "showHints": true,
+ "tip": "Назовите каждую букву вслух. В круге «на время» порядок перемешается — так проверяется, что вы узнаёте букву, а не помните порядок.",
+ "items": [
+  {
+   "type": "letter",
+   "ar": "ا",
+   "name": "Алиф"
+  },
+  {
+   "type": "letter",
+   "ar": "ب",
+   "name": "Ба"
+  },
+  {
+   "type": "letter",
+   "ar": "ت",
+   "name": "Та"
+  },
+  {
+   "type": "letter",
+   "ar": "ث",
+   "name": "Са (межзубная)"
+  },
+  {
+   "type": "letter",
+   "ar": "ج",
+   "name": "Джим"
+  },
+  {
+   "type": "letter",
+   "ar": "ح",
+   "name": "Ха (гортанная)"
+  },
+  {
+   "type": "letter",
+   "ar": "خ",
+   "name": "Хо"
+  },
+  {
+   "type": "letter",
+   "ar": "د",
+   "name": "Даль"
+  },
+  {
+   "type": "letter",
+   "ar": "ذ",
+   "name": "Заль (межзубная)"
+  },
+  {
+   "type": "letter",
+   "ar": "ر",
+   "name": "Ра"
+  },
+  {
+   "type": "letter",
+   "ar": "ز",
+   "name": "Зай"
+  },
+  {
+   "type": "letter",
+   "ar": "س",
+   "name": "Син"
+  },
+  {
+   "type": "letter",
+   "ar": "ش",
+   "name": "Шин"
+  },
+  {
+   "type": "letter",
+   "ar": "ص",
+   "name": "Сод"
+  },
+  {
+   "type": "letter",
+   "ar": "ض",
+   "name": "Дод"
+  },
+  {
+   "type": "letter",
+   "ar": "ط",
+   "name": "То"
+  },
+  {
+   "type": "letter",
+   "ar": "ظ",
+   "name": "Зо"
+  },
+  {
+   "type": "letter",
+   "ar": "ع",
+   "name": "Айн"
+  },
+  {
+   "type": "letter",
+   "ar": "غ",
+   "name": "Гойн"
+  },
+  {
+   "type": "letter",
+   "ar": "ف",
+   "name": "Фа"
+  },
+  {
+   "type": "letter",
+   "ar": "ق",
+   "name": "Коф"
+  },
+  {
+   "type": "letter",
+   "ar": "ك",
+   "name": "Каф"
+  },
+  {
+   "type": "letter",
+   "ar": "ل",
+   "name": "Лям"
+  },
+  {
+   "type": "letter",
+   "ar": "م",
+   "name": "Мим"
+  },
+  {
+   "type": "letter",
+   "ar": "ن",
+   "name": "Нун"
+  },
+  {
+   "type": "letter",
+   "ar": "ه",
+   "name": "Ха (лёгкая)"
+  },
+  {
+   "type": "letter",
+   "ar": "و",
+   "name": "Вав"
+  },
+  {
+   "type": "letter",
+   "ar": "ي",
+   "name": "Йа"
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "id": "L05",
+ "section": "letters",
+ "title": "То, Зо, Айн, Гойн",
+ "subtitle": "ط ظ ع غ",
+ "level": 1,
+ "targetSeconds": 18,
+ "showHints": true,
+ "tip": "То и Зо — петля с палочкой (у Зо точка). Айн и Гойн — «крючок» (у Гойн точка сверху).",
+ "items": [
+  {
+   "type": "letter",
+   "ar": "ط",
+   "name": "То"
+  },
+  {
+   "type": "letter",
+   "ar": "ظ",
+   "name": "Зо"
+  },
+  {
+   "type": "letter",
+   "ar": "ع",
+   "name": "Айн"
+  },
+  {
+   "type": "letter",
+   "ar": "غ",
+   "name": "Гойн"
+  }
+ ]
+}

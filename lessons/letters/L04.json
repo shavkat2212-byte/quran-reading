@@ -1,0 +1,32 @@
+{
+ "id": "L04",
+ "section": "letters",
+ "title": "Син, Шин, Сод, Дод",
+ "subtitle": "س ش ص ض",
+ "level": 1,
+ "targetSeconds": 18,
+ "showHints": true,
+ "tip": "Син и Шин — «зубцы» (у Шин три точки). Сод и Дод — «петля» (у Дод точка сверху).",
+ "items": [
+  {
+   "type": "letter",
+   "ar": "س",
+   "name": "Син"
+  },
+  {
+   "type": "letter",
+   "ar": "ش",
+   "name": "Шин"
+  },
+  {
+   "type": "letter",
+   "ar": "ص",
+   "name": "Сод"
+  },
+  {
+   "type": "letter",
+   "ar": "ض",
+   "name": "Дод"
+  }
+ ]
+}
