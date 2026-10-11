@@ -1,6 +1,6 @@
 "use strict";
 // Самоучитель чтения Корана — статическое приложение, прогресс хранится в localStorage телефона.
-const VERSION = "2";
+const VERSION = "3";
 const KEY = "qr.progress.v1";
 const $app = document.getElementById("app");
 const LEVELS = {1: "Очень легко", 2: "Легко", 3: "Средне", 4: "Сложнее", 5: "Аяты"};
@@ -75,11 +75,12 @@ async function home() {
     <div>Самоучитель беглого чтения. 15 минут в день — и чтение пойдёт без остановок.</div>
     <div class="stats"><div><b>${doneN}/${all.length}</b>уроков</div><div><b>${s}</b>${plural(s, "день", "дня", "дней")} подряд</div><div><b>${p.days.length}</b>${plural(p.days.length, "день", "дня", "дней")} занятий</div></div>
     <div class="row">${S.map(sec => { const n = nextOf(sec, p); const d = sec.lessons.filter(l => p.done[l.id]).length;
-      return `<a class="btn ${sec.id === "letters" ? "light" : "gold"}" href="${href(sec, n.id)}">${sec.id === "letters" ? "🔤 Буквы" : "📖 Чтение"} ▸</a>`; }).join("")}</div>
+      return `<a class="btn ${sec.id === "letters" ? "light" : "gold"}" href="${href(sec, n.id)}">${sec.id === "letters" ? "🔤 Буквы" : "📝 Уроки"} ▸</a>`; }).join("")}</div>
   </section>`;
+  try { h += await mushafCard(); } catch (e) { console.error(e); }
   for (const sec of S) {
     const d = sec.lessons.filter(l => p.done[l.id]).length, n = sec.lessons.length;
-    h += `<h3 class="sec"><span>${sec.id === "letters" ? "🔤" : "📖"} ${esc(sec.title)}</span><small>${d} из ${n}</small></h3>
+    h += `<h3 class="sec"><span>${sec.id === "letters" ? "🔤" : "📝"} ${esc(sec.title)}</span><small>${d} из ${n}</small></h3>
       <div class="pbar"><i style="width:${Math.round(d / n * 100)}%"></i></div>`;
     for (const l of sec.lessons) {
       const b = best(p, l.id); const t = l.targetSeconds;
@@ -210,7 +211,9 @@ function route() {
   clearInterval(timerId); audio.pause();
   const d = document.querySelector(".dock"); if (d) d.remove(); fitDock();
   const m = location.hash.match(/^#\/(?:lesson|letters)\/(\w+)/);
-  (m ? lesson(m[1]) : home()).catch(e => { $app.innerHTML = `<p class="card">Не удалось загрузить урок. Проверьте интернет.<br><small class="muted">${esc(e.message)}</small></p>`; });
+  const pm = location.hash.match(/^#\/page\/(\d+)/);
+  (pm ? pageView(+pm[1]) : location.hash === "#/pages" ? pagePicker() : m ? lesson(m[1]) : home()).catch(e => { $app.innerHTML = `<p class="card">Не удалось загрузить урок. Проверьте интернет.<br><small class="muted">${esc(e.message)}</small></p>`; });
 }
 window.addEventListener("hashchange", route);
-renderStreak(); route();
+renderStreak();
+window.addEventListener("DOMContentLoaded", route);

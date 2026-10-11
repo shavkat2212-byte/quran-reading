@@ -68,3 +68,35 @@ h1.lt{font-size:22px;margin:4px 0 2px}
 .w.forms .tr small{font-size:11.5px}
 .w .tr{direction:ltr}
 .tip .ar{font-size:1.5em;line-height:1.2}
+/* ---- мусхаф ---- */
+.mcard{border:2px solid var(--g2)}
+.btn.big{font-size:20px;padding:18px}
+.btn.light2{background:var(--g2);color:var(--g);font-size:15px;padding:12px 8px}
+.btn.dis{opacity:.35;pointer-events:none}
+.okday{background:var(--g2);color:var(--g);font-weight:600;border-radius:12px;padding:10px 12px;margin-bottom:8px}
+.phead{display:flex;justify-content:space-between}
+.ctrls{display:flex;flex-wrap:wrap;align-items:center;gap:4px 14px;margin:10px 0 4px}
+.ctrls .toggle{margin:0}
+.sbtn{margin-left:auto;border:0;background:var(--g);color:#fff;border-radius:10px;padding:8px 12px;font-weight:600;font-size:14px}
+.mushaf{background:#fffdf6;border:1px solid #e8dfc2;border-radius:14px;padding:12px 8px;direction:rtl;margin-bottom:12px}
+.mushaf .ar{font-family:"Amiri Quran","Scheherazade New",serif}
+.mushaf.lines .ln{display:flex;justify-content:space-between;align-items:baseline;white-space:nowrap;line-height:2.15}
+.mushaf.lines .ln.c{justify-content:center;gap:.28em}
+.mushaf.lines .ln.measure{justify-content:flex-start;gap:.28em;width:max-content}
+.mushaf.flow{font-size:30px;line-height:2.2;text-align:justify}
+.mushaf.flow .ln{display:inline}
+.mushaf.flow .mw,.mushaf.flow .me{margin:0 .12em}
+.mushaf.flow .shead,.mushaf.flow .basm{display:block}
+.mushaf.tr{font-size:28px}
+.mushaf.tr .mw{display:inline-flex;flex-direction:column;align-items:center;vertical-align:top;line-height:1.7;margin:0 .15em .2em}
+.mushaf.tr .mw small{font:12px/1.2 -apple-system,system-ui,sans-serif;color:var(--mut);direction:ltr}
+.mw,.me{cursor:pointer;border-radius:6px;-webkit-tap-highlight-color:transparent}
+.mw.playing,.me.playing,.basm.playing{background:#fbefc4}
+.mw.hl{background:#eef6f2}
+.me .ar{color:var(--g)}
+.shead{text-align:center;margin:6px 0 4px;padding:6px;border:2px solid #d9c98f;border-radius:12px;background:#f6efd8;line-height:1.4}
+.shead .ar{display:block;font-size:30px;line-height:1.6;color:var(--g)}
+.shead small{font-size:12.5px;color:var(--mut)}
+.basm{text-align:center;font-size:28px;line-height:2;cursor:pointer}
+.pnav{display:flex;gap:10px}.pnav .btn{flex:1}
+.inp{font-size:18px;padding:12px;border:2px solid #d6d3c9;border-radius:12px;width:100%}
