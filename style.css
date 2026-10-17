@@ -100,3 +100,41 @@ h1.lt{font-size:22px;margin:4px 0 2px}
 .basm{text-align:center;font-size:28px;line-height:2;cursor:pointer}
 .pnav{display:flex;gap:10px}.pnav .btn{flex:1}
 .inp{font-size:18px;padding:12px;border:2px solid #d6d3c9;border-radius:12px;width:100%}
+/* ---- утренние зикры ---- */
+.dkcard{border-color:#f0e2b0}
+.dkprog{padding:12px 14px;position:sticky;top:var(--toph,74px);z-index:4}
+.sbtn.light{background:var(--g2);color:var(--g)}
+.dk{padding:14px 14px 12px;border:2px solid transparent;transition:border-color .2s}
+.dk.cur{border-color:var(--gold)}
+.dk.done{background:#f1f7f4}
+.dkh{display:flex;align-items:center;gap:10px;cursor:pointer}
+.dkh .num{flex:0 0 34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;background:var(--g2);color:var(--g);font-size:15px}
+.dk.done .dkh .num{background:var(--g);color:#fff}
+.dkt{font-weight:600;line-height:1.3}
+.dkx{margin-left:auto;font-weight:700;color:var(--g);background:var(--g2);border-radius:10px;padding:3px 9px;font-size:14px;white-space:nowrap}
+.dk.done .dkx{background:none}
+.dkbody{margin-top:8px}
+.dkar{font-size:29px;line-height:2.15;text-align:justify;text-align-last:right;margin:4px 0 6px;font-family:"Amiri Quran","Scheherazade New",serif}
+.dkpre,.dkbasm{font-size:25px;line-height:2;text-align:center;color:var(--g)}
+.dkay{color:var(--g);font-size:.85em}
+.dktr{font-size:14.5px;color:#4a5450;font-style:italic;margin:6px 0;line-height:1.5}
+.dkru{font-size:15px;margin:6px 0 4px;line-height:1.5}
+.dkru small{color:var(--mut)}
+.dkv{font-size:14px;margin:10px 0 6px}
+.dksrc{font-size:12.5px;color:var(--mut);margin:4px 0 8px}
+.dkctl{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+.dkctl .sbtn{margin-left:0}
+.sbtn.playing{background:var(--gold);color:#1d1600}
+.seg{display:inline-flex;border:2px solid var(--g);border-radius:10px;overflow:hidden}
+.seg button{border:0;background:#fff;color:var(--g);font-weight:700;padding:6px 12px;font-size:14px}
+.seg button.on{background:var(--g);color:#fff}
+.undo{border:0;background:#eceae3;color:var(--mut);border-radius:10px;padding:8px 12px;font-weight:600;font-size:14px;margin-left:auto}
+.dkbtn{position:relative;overflow:hidden;width:100%;border:0;border-radius:12px;background:var(--g);color:#fff;padding:14px 12px;font-size:16px;font-weight:600;cursor:pointer;-webkit-tap-highlight-color:transparent;touch-action:manipulation;margin-top:2px}
+.dkbtn i{position:absolute;left:0;top:0;bottom:0;background:rgba(255,255,255,.18);transition:width .15s}
+.dkbtn span{position:relative}
+.dkbtn b{font-size:22px;margin-right:4px}
+.dkbtn:active{transform:scale(.985)}
+.dkdk{display:flex;justify-content:space-between;gap:10px;font-size:13.5px;margin-bottom:6px}
+.dkdk span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.dkdk b{color:var(--g);font-size:15px;white-space:nowrap}
+.dock .btn{touch-action:manipulation}
