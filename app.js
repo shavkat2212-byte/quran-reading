@@ -1,6 +1,6 @@
 "use strict";
 // Самоучитель чтения Корана — статическое приложение, прогресс хранится в localStorage телефона.
-const VERSION = "4";
+const VERSION = "5";
 const KEY = "qr.progress.v1";
 const $app = document.getElementById("app");
 const LEVELS = {1: "Очень легко", 2: "Легко", 3: "Средне", 4: "Сложнее", 5: "Аяты"};
@@ -78,6 +78,7 @@ async function home() {
       return `<a class="btn ${sec.id === "letters" ? "light" : "gold"}" href="${href(sec, n.id)}">${sec.id === "letters" ? "🔤 Буквы" : "📝 Уроки"} ▸</a>`; }).join("")}</div>
   </section>`;
   try { h += await adhkarCard(); } catch (e) { console.error(e); }
+  try { h += await duaCard(); } catch (e) { console.error(e); }
   try { h += await mushafCard(); } catch (e) { console.error(e); }
   for (const sec of S) {
     const d = sec.lessons.filter(l => p.done[l.id]).length, n = sec.lessons.length;
@@ -93,7 +94,7 @@ async function home() {
         <div class="best">${b != null ? (hit ? "🎯 " : "⏱ ") + fmt(b) : ""}</div></a>`;
     }
   }
-  h += `<p class="foot"><b>${OWNER}</b><br>Текст: мусхаф (усмани) через api.quran.com · Звук слов: quran.com · Аяты: Мишари аль-Афаси (everyayah.com) · Зикры: «Крепость мусульманина», звук hisnmuslim.com<br>Произношение и таджвид — с устазом. Здесь тренируем беглость.</p>`;
+  h += `<p class="foot"><b>${OWNER}</b><br>Текст: мусхаф (усмани) через api.quran.com · Звук слов: quran.com · Аяты: Мишари аль-Афаси (everyayah.com) · Зикры и дуа: «Крепость мусульманина», звук hisnmuslim.com<br>Произношение и таджвид — с устазом. Здесь тренируем беглость.</p>`;
   $app.innerHTML = h; renderStreak(); window.scrollTo(0, 0);
 }
 
@@ -209,11 +210,12 @@ function tick() {
 
 // ---------- маршруты ----------
 function route() {
-  clearInterval(timerId); audio.pause();
+  clearInterval(timerId); audio.pause(); $app.onclick = null;
   const d = document.querySelector(".dock"); if (d) d.remove(); fitDock();
   const m = location.hash.match(/^#\/(?:lesson|letters)\/(\w+)/);
   const pm = location.hash.match(/^#\/page\/(\d+)/);
-  (pm ? pageView(+pm[1]) : location.hash === "#/adhkar" ? adhkarView() : location.hash === "#/pages" ? pagePicker() : m ? lesson(m[1]) : home()).catch(e => { $app.innerHTML = `<p class="card">Не удалось загрузить урок. Проверьте интернет.<br><small class="muted">${esc(e.message)}</small></p>`; });
+  const am = location.hash.match(/^#\/adhkar(?:\/(evening|salah))?$/), du = location.hash.match(/^#\/dua(?:\/(\w+))?$/);
+  (pm ? pageView(+pm[1]) : am ? adhkarView(am[1] || "morning") : du ? duaView(du[1]) : location.hash === "#/pages" ? pagePicker() : m ? lesson(m[1]) : home()).catch(e => { $app.innerHTML = `<p class="card">Не удалось загрузить урок. Проверьте интернет.<br><small class="muted">${esc(e.message)}</small></p>`; });
 }
 window.addEventListener("hashchange", route);
 renderStreak();

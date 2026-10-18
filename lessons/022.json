@@ -1,0 +1,94 @@
+{
+ "id": "022",
+ "title": "Лунные буквы",
+ "subtitle": "ٱلْ с сукуном: «аль» читается",
+ "level": 4,
+ "targetSeconds": 25,
+ "tip": "Если на ل стоит сукун ( ٱلْ ) — лям читается: «аль-». Пример: ٱلْبَلَدِ, ٱلْأَرْضَ. Сравните с прошлым уроком: глаз сразу смотрит на вторую букву — шадда или нет.",
+ "items": [
+  {
+   "type": "word",
+   "ar": "ٱلْبَلَدِ",
+   "loc": "95:3:2",
+   "audio": "https://audio.qurancdn.com/wbw/095_003_002.mp3",
+   "translit": "l-baladi"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلْأَرْضَ",
+   "loc": "80:26:3",
+   "audio": "https://audio.qurancdn.com/wbw/080_026_003.mp3",
+   "translit": "l-arḍa"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلْمَرْءُ",
+   "loc": "80:34:3",
+   "audio": "https://audio.qurancdn.com/wbw/080_034_003.mp3",
+   "translit": "l-maru"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلْعَرْشِ",
+   "loc": "85:15:2",
+   "audio": "https://audio.qurancdn.com/wbw/085_015_002.mp3",
+   "translit": "l-ʿarshi"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلْكِتَـٰبِ",
+   "loc": "98:1:7",
+   "audio": "https://audio.qurancdn.com/wbw/098_001_007.mp3",
+   "translit": "l-kitābi"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلْجِبَالُ",
+   "loc": "101:5:2",
+   "audio": "https://audio.qurancdn.com/wbw/101_005_002.mp3",
+   "translit": "l-jibālu"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلْكُبْرَىٰ",
+   "loc": "87:12:4",
+   "audio": "https://audio.qurancdn.com/wbw/087_012_004.mp3",
+   "translit": "l-kub'rā"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلْيَقِينِ",
+   "loc": "102:5:5",
+   "audio": "https://audio.qurancdn.com/wbw/102_005_005.mp3",
+   "translit": "l-yaqīni"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلْجَحِيمَ",
+   "loc": "102:6:2",
+   "audio": "https://audio.qurancdn.com/wbw/102_006_002.mp3",
+   "translit": "l-jaḥīma"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلْمَأْوَىٰ",
+   "loc": "79:39:4",
+   "audio": "https://audio.qurancdn.com/wbw/079_039_004.mp3",
+   "translit": "l-mawā"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلْبِحَارُ",
+   "loc": "82:3:2",
+   "audio": "https://audio.qurancdn.com/wbw/082_003_002.mp3",
+   "translit": "l-biḥāru"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلْأَشْقَى",
+   "loc": "92:15:4",
+   "audio": "https://audio.qurancdn.com/wbw/092_015_004.mp3",
+   "translit": "l-ashqā"
+  }
+ ]
+}

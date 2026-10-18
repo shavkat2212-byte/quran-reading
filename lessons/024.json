@@ -1,0 +1,282 @@
+{
+ "id": "024",
+ "title": "Сура ан-Наср и сура Курайш",
+ "subtitle": "Остановка в конце аята (вакф)",
+ "level": 5,
+ "targetSeconds": 60,
+ "tip": "В конце аята останавливаемся: последнюю огласовку не произносим (ٱلْعَصْرِ → «аль-'аср»), танвин -ан читаем как долгое «а», а ة — как «х». Прочитайте аят по словам, потом целиком, затем обе суры подряд.",
+ "items": [
+  {
+   "type": "ayah",
+   "key": "110:1",
+   "ar": "إِذَا جَآءَ نَصْرُ ٱللَّهِ وَٱلْفَتْحُ",
+   "audio": "https://everyayah.com/data/Alafasy_128kbps/110001.mp3",
+   "words": [
+    {
+     "ar": "إِذَا",
+     "loc": "110:1:1",
+     "audio": "https://audio.qurancdn.com/wbw/110_001_001.mp3",
+     "translit": "idhā"
+    },
+    {
+     "ar": "جَآءَ",
+     "loc": "110:1:2",
+     "audio": "https://audio.qurancdn.com/wbw/110_001_002.mp3",
+     "translit": "jāa"
+    },
+    {
+     "ar": "نَصْرُ",
+     "loc": "110:1:3",
+     "audio": "https://audio.qurancdn.com/wbw/110_001_003.mp3",
+     "translit": "naṣru"
+    },
+    {
+     "ar": "ٱللَّهِ",
+     "loc": "110:1:4",
+     "audio": "https://audio.qurancdn.com/wbw/110_001_004.mp3",
+     "translit": "l-lahi"
+    },
+    {
+     "ar": "وَٱلْفَتْحُ",
+     "loc": "110:1:5",
+     "audio": "https://audio.qurancdn.com/wbw/110_001_005.mp3",
+     "translit": "wal-fatḥu"
+    }
+   ]
+  },
+  {
+   "type": "ayah",
+   "key": "110:2",
+   "ar": "وَرَأَيْتَ ٱلنَّاسَ يَدْخُلُونَ فِى دِينِ ٱللَّهِ أَفْوَاجًۭا",
+   "audio": "https://everyayah.com/data/Alafasy_128kbps/110002.mp3",
+   "words": [
+    {
+     "ar": "وَرَأَيْتَ",
+     "loc": "110:2:1",
+     "audio": "https://audio.qurancdn.com/wbw/110_002_001.mp3",
+     "translit": "wara-ayta"
+    },
+    {
+     "ar": "ٱلنَّاسَ",
+     "loc": "110:2:2",
+     "audio": "https://audio.qurancdn.com/wbw/110_002_002.mp3",
+     "translit": "l-nāsa"
+    },
+    {
+     "ar": "يَدْخُلُونَ",
+     "loc": "110:2:3",
+     "audio": "https://audio.qurancdn.com/wbw/110_002_003.mp3",
+     "translit": "yadkhulūna"
+    },
+    {
+     "ar": "فِى",
+     "loc": "110:2:4",
+     "audio": "https://audio.qurancdn.com/wbw/110_002_004.mp3",
+     "translit": "fī"
+    },
+    {
+     "ar": "دِينِ",
+     "loc": "110:2:5",
+     "audio": "https://audio.qurancdn.com/wbw/110_002_005.mp3",
+     "translit": "dīni"
+    },
+    {
+     "ar": "ٱللَّهِ",
+     "loc": "110:2:6",
+     "audio": "https://audio.qurancdn.com/wbw/110_002_006.mp3",
+     "translit": "l-lahi"
+    },
+    {
+     "ar": "أَفْوَاجًۭا",
+     "loc": "110:2:7",
+     "audio": "https://audio.qurancdn.com/wbw/110_002_007.mp3",
+     "translit": "afwājan"
+    }
+   ]
+  },
+  {
+   "type": "ayah",
+   "key": "110:3",
+   "ar": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَٱسْتَغْفِرْهُ ۚ إِنَّهُۥ كَانَ تَوَّابًۢا",
+   "audio": "https://everyayah.com/data/Alafasy_128kbps/110003.mp3",
+   "words": [
+    {
+     "ar": "فَسَبِّحْ",
+     "loc": "110:3:1",
+     "audio": "https://audio.qurancdn.com/wbw/110_003_001.mp3",
+     "translit": "fasabbiḥ"
+    },
+    {
+     "ar": "بِحَمْدِ",
+     "loc": "110:3:2",
+     "audio": "https://audio.qurancdn.com/wbw/110_003_002.mp3",
+     "translit": "biḥamdi"
+    },
+    {
+     "ar": "رَبِّكَ",
+     "loc": "110:3:3",
+     "audio": "https://audio.qurancdn.com/wbw/110_003_003.mp3",
+     "translit": "rabbika"
+    },
+    {
+     "ar": "وَٱسْتَغْفِرْهُ ۚ",
+     "loc": "110:3:4",
+     "audio": "https://audio.qurancdn.com/wbw/110_003_004.mp3",
+     "translit": "wa-is'taghfir'hu"
+    },
+    {
+     "ar": "إِنَّهُۥ",
+     "loc": "110:3:5",
+     "audio": "https://audio.qurancdn.com/wbw/110_003_005.mp3",
+     "translit": "innahu"
+    },
+    {
+     "ar": "كَانَ",
+     "loc": "110:3:6",
+     "audio": "https://audio.qurancdn.com/wbw/110_003_006.mp3",
+     "translit": "kāna"
+    },
+    {
+     "ar": "تَوَّابًۢا",
+     "loc": "110:3:7",
+     "audio": "https://audio.qurancdn.com/wbw/110_003_007.mp3",
+     "translit": "tawwāban"
+    }
+   ]
+  },
+  {
+   "type": "ayah",
+   "key": "106:1",
+   "ar": "لِإِيلَـٰفِ قُرَيْشٍ",
+   "audio": "https://everyayah.com/data/Alafasy_128kbps/106001.mp3",
+   "words": [
+    {
+     "ar": "لِإِيلَـٰفِ",
+     "loc": "106:1:1",
+     "audio": "https://audio.qurancdn.com/wbw/106_001_001.mp3",
+     "translit": "liīlāfi"
+    },
+    {
+     "ar": "قُرَيْشٍ",
+     "loc": "106:1:2",
+     "audio": "https://audio.qurancdn.com/wbw/106_001_002.mp3",
+     "translit": "qurayshin"
+    }
+   ]
+  },
+  {
+   "type": "ayah",
+   "key": "106:2",
+   "ar": "إِۦلَـٰفِهِمْ رِحْلَةَ ٱلشِّتَآءِ وَٱلصَّيْفِ",
+   "audio": "https://everyayah.com/data/Alafasy_128kbps/106002.mp3",
+   "words": [
+    {
+     "ar": "إِۦلَـٰفِهِمْ",
+     "loc": "106:2:1",
+     "audio": "https://audio.qurancdn.com/wbw/106_002_001.mp3",
+     "translit": "īlāfihim"
+    },
+    {
+     "ar": "رِحْلَةَ",
+     "loc": "106:2:2",
+     "audio": "https://audio.qurancdn.com/wbw/106_002_002.mp3",
+     "translit": "riḥ'lata"
+    },
+    {
+     "ar": "ٱلشِّتَآءِ",
+     "loc": "106:2:3",
+     "audio": "https://audio.qurancdn.com/wbw/106_002_003.mp3",
+     "translit": "l-shitāi"
+    },
+    {
+     "ar": "وَٱلصَّيْفِ",
+     "loc": "106:2:4",
+     "audio": "https://audio.qurancdn.com/wbw/106_002_004.mp3",
+     "translit": "wal-ṣayfi"
+    }
+   ]
+  },
+  {
+   "type": "ayah",
+   "key": "106:3",
+   "ar": "فَلْيَعْبُدُوا۟ رَبَّ هَـٰذَا ٱلْبَيْتِ",
+   "audio": "https://everyayah.com/data/Alafasy_128kbps/106003.mp3",
+   "words": [
+    {
+     "ar": "فَلْيَعْبُدُوا۟",
+     "loc": "106:3:1",
+     "audio": "https://audio.qurancdn.com/wbw/106_003_001.mp3",
+     "translit": "falyaʿbudū"
+    },
+    {
+     "ar": "رَبَّ",
+     "loc": "106:3:2",
+     "audio": "https://audio.qurancdn.com/wbw/106_003_002.mp3",
+     "translit": "rabba"
+    },
+    {
+     "ar": "هَـٰذَا",
+     "loc": "106:3:3",
+     "audio": "https://audio.qurancdn.com/wbw/106_003_003.mp3",
+     "translit": "hādhā"
+    },
+    {
+     "ar": "ٱلْبَيْتِ",
+     "loc": "106:3:4",
+     "audio": "https://audio.qurancdn.com/wbw/106_003_004.mp3",
+     "translit": "l-bayti"
+    }
+   ]
+  },
+  {
+   "type": "ayah",
+   "key": "106:4",
+   "ar": "ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍۢ وَءَامَنَهُم مِّنْ خَوْفٍۭ",
+   "audio": "https://everyayah.com/data/Alafasy_128kbps/106004.mp3",
+   "words": [
+    {
+     "ar": "ٱلَّذِىٓ",
+     "loc": "106:4:1",
+     "audio": "https://audio.qurancdn.com/wbw/106_004_001.mp3",
+     "translit": "alladhī"
+    },
+    {
+     "ar": "أَطْعَمَهُم",
+     "loc": "106:4:2",
+     "audio": "https://audio.qurancdn.com/wbw/106_004_002.mp3",
+     "translit": "aṭʿamahum"
+    },
+    {
+     "ar": "مِّن",
+     "loc": "106:4:3",
+     "audio": "https://audio.qurancdn.com/wbw/106_004_003.mp3",
+     "translit": "min"
+    },
+    {
+     "ar": "جُوعٍۢ",
+     "loc": "106:4:4",
+     "audio": "https://audio.qurancdn.com/wbw/106_004_004.mp3",
+     "translit": "jūʿin"
+    },
+    {
+     "ar": "وَءَامَنَهُم",
+     "loc": "106:4:5",
+     "audio": "https://audio.qurancdn.com/wbw/106_004_005.mp3",
+     "translit": "waāmanahum"
+    },
+    {
+     "ar": "مِّنْ",
+     "loc": "106:4:6",
+     "audio": "https://audio.qurancdn.com/wbw/106_004_006.mp3",
+     "translit": "min"
+    },
+    {
+     "ar": "خَوْفٍۭ",
+     "loc": "106:4:7",
+     "audio": "https://audio.qurancdn.com/wbw/106_004_007.mp3",
+     "translit": "khawfin"
+    }
+   ]
+  }
+ ]
+}

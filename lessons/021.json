@@ -1,0 +1,94 @@
+{
+ "id": "021",
+ "title": "Солнечные буквы",
+ "subtitle": "ٱل + шадда: «ль» не читается",
+ "level": 4,
+ "targetSeconds": 26,
+ "tip": "Если после ٱل на следующей букве стоит шадда — лям не читается, звук сразу удваивается: ٱلدِّينِ, ٱلنَّاسُ, ٱلصِّرَٰطَ. Солнечных букв 14: ت ث د ذ ر ز س ش ص ض ط ظ ل ن.",
+ "items": [
+  {
+   "type": "word",
+   "ar": "ٱلدِّينِ",
+   "loc": "1:4:3",
+   "audio": "https://audio.qurancdn.com/wbw/001_004_003.mp3",
+   "translit": "l-dīni"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلنَّاسُ",
+   "loc": "101:4:3",
+   "audio": "https://audio.qurancdn.com/wbw/101_004_003.mp3",
+   "translit": "l-nāsu"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلصِّرَٰطَ",
+   "loc": "1:6:2",
+   "audio": "https://audio.qurancdn.com/wbw/001_006_002.mp3",
+   "translit": "l-ṣirāṭa"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلصُّورِ",
+   "loc": "78:18:4",
+   "audio": "https://audio.qurancdn.com/wbw/078_018_004.mp3",
+   "translit": "l-ṣūri"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلنَّبَإِ",
+   "loc": "78:2:2",
+   "audio": "https://audio.qurancdn.com/wbw/078_002_002.mp3",
+   "translit": "l-naba-i"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلرُّوحُ",
+   "loc": "78:38:3",
+   "audio": "https://audio.qurancdn.com/wbw/078_038_003.mp3",
+   "translit": "l-rūḥu"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلنَّفْسَ",
+   "loc": "79:40:7",
+   "audio": "https://audio.qurancdn.com/wbw/079_040_007.mp3",
+   "translit": "l-nafsa"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلنَّعِيمِ",
+   "loc": "102:8:5",
+   "audio": "https://audio.qurancdn.com/wbw/102_008_005.mp3",
+   "translit": "l-naʿīmi"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلرَّحِيمِ",
+   "loc": "1:1:4",
+   "audio": "https://audio.qurancdn.com/wbw/001_001_004.mp3",
+   "translit": "l-raḥīmi"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلسَّمَـٰوَٰتِ",
+   "loc": "85:9:4",
+   "audio": "https://audio.qurancdn.com/wbw/085_009_004.mp3",
+   "translit": "l-samāwāti"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلدُّنْيَا",
+   "loc": "87:16:4",
+   "audio": "https://audio.qurancdn.com/wbw/087_016_004.mp3",
+   "translit": "l-dun'yā"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلذِّكْرَىٰ",
+   "loc": "89:23:9",
+   "audio": "https://audio.qurancdn.com/wbw/089_023_009.mp3",
+   "translit": "l-dhik'rā"
+  }
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "id": "018",
+ "title": "Длинный мадд ( ـٓ )",
+ "subtitle": "Волнистый значок — тянем 4–5 счётов",
+ "level": 4,
+ "targetSeconds": 30,
+ "tip": "Волнистая черта ـٓ над долгой гласной означает, что её тянут дольше обычного — 4–5 счётов. Чаще всего это перед хамзой: ٱلَّذِىٓ, جَزَآءًۭ. На время читайте быстро, но мадд не обрезайте.",
+ "items": [
+  {
+   "type": "word",
+   "ar": "ٱلَّذِىٓ",
+   "loc": "106:4:1",
+   "audio": "https://audio.qurancdn.com/wbw/106_004_001.mp3",
+   "translit": "alladhī"
+  },
+  {
+   "type": "word",
+   "ar": "جَزَآءًۭ",
+   "loc": "78:26:1",
+   "audio": "https://audio.qurancdn.com/wbw/078_026_001.mp3",
+   "translit": "jazāan"
+  },
+  {
+   "type": "word",
+   "ar": "جَآءَتِ",
+   "loc": "80:33:2",
+   "audio": "https://audio.qurancdn.com/wbw/080_033_002.mp3",
+   "translit": "jāati"
+  },
+  {
+   "type": "word",
+   "ar": "إِنَّمَآ",
+   "loc": "88:21:2",
+   "audio": "https://audio.qurancdn.com/wbw/088_021_002.mp3",
+   "translit": "innamā"
+  },
+  {
+   "type": "word",
+   "ar": "فِيهَآ",
+   "loc": "98:8:11",
+   "audio": "https://audio.qurancdn.com/wbw/098_008_011.mp3",
+   "translit": "fīhā"
+  },
+  {
+   "type": "word",
+   "ar": "مَالَهُۥٓ",
+   "loc": "104:3:3",
+   "audio": "https://audio.qurancdn.com/wbw/104_003_003.mp3",
+   "translit": "mālahu"
+  },
+  {
+   "type": "word",
+   "ar": "عَطَآءً",
+   "loc": "78:36:4",
+   "audio": "https://audio.qurancdn.com/wbw/078_036_004.mp3",
+   "translit": "ʿaṭāan"
+  },
+  {
+   "type": "word",
+   "ar": "أُو۟لَـٰٓئِكَ",
+   "loc": "98:6:13",
+   "audio": "https://audio.qurancdn.com/wbw/098_006_013.mp3",
+   "translit": "ulāika"
+  },
+  {
+   "type": "word",
+   "ar": "وَتَوَلَّىٰٓ",
+   "loc": "96:13:4",
+   "audio": "https://audio.qurancdn.com/wbw/096_013_004.mp3",
+   "translit": "watawallā"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلسَّمَآءُ",
+   "loc": "84:1:2",
+   "audio": "https://audio.qurancdn.com/wbw/084_001_002.mp3",
+   "translit": "l-samāu"
+  },
+  {
+   "type": "word",
+   "ar": "وَٱلسَّمَآءِ",
+   "loc": "91:5:1",
+   "audio": "https://audio.qurancdn.com/wbw/091_005_001.mp3",
+   "translit": "wal-samāi"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلْأَرَآئِكِ",
+   "loc": "83:23:2",
+   "audio": "https://audio.qurancdn.com/wbw/083_023_002.mp3",
+   "translit": "l-arāiki"
+  }
+ ]
+}

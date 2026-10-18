@@ -1,0 +1,94 @@
+{
+ "id": "020",
+ "title": "Та марбута ( ة )",
+ "subtitle": "Окончание -ат / -а",
+ "level": 4,
+ "targetSeconds": 28,
+ "tip": "ة (та марбута) — женское окончание. При чтении подряд это «т» со своей огласовкой (خَـٰشِعَةٌ), а при остановке читается как лёгкое «х» / «а». Глаз должен узнавать ة сразу — она похожа на ه с двумя точками.",
+ "items": [
+  {
+   "type": "word",
+   "ar": "خَـٰشِعَةٌ",
+   "loc": "88:2:3",
+   "audio": "https://audio.qurancdn.com/wbw/088_002_003.mp3",
+   "translit": "khāshiʿatun"
+  },
+  {
+   "type": "word",
+   "ar": "لَيْلَةُ",
+   "loc": "97:2:4",
+   "audio": "https://audio.qurancdn.com/wbw/097_002_004.mp3",
+   "translit": "laylatu"
+  },
+  {
+   "type": "word",
+   "ar": "عِيشَةٍۢ",
+   "loc": "101:7:3",
+   "audio": "https://audio.qurancdn.com/wbw/101_007_003.mp3",
+   "translit": "ʿīshatin"
+  },
+  {
+   "type": "word",
+   "ar": "هُمَزَةٍۢ",
+   "loc": "104:1:3",
+   "audio": "https://audio.qurancdn.com/wbw/104_001_003.mp3",
+   "translit": "humazatin"
+  },
+  {
+   "type": "word",
+   "ar": "لُّمَزَةٍ",
+   "loc": "104:1:4",
+   "audio": "https://audio.qurancdn.com/wbw/104_001_004.mp3",
+   "translit": "lumazatin"
+  },
+  {
+   "type": "word",
+   "ar": "رِحْلَةَ",
+   "loc": "106:2:2",
+   "audio": "https://audio.qurancdn.com/wbw/106_002_002.mp3",
+   "translit": "riḥ'lata"
+  },
+  {
+   "type": "word",
+   "ar": "نَّخِرَةًۭ",
+   "loc": "79:11:4",
+   "audio": "https://audio.qurancdn.com/wbw/079_011_004.mp3",
+   "translit": "nakhiratan"
+  },
+  {
+   "type": "word",
+   "ar": "زَجْرَةٌۭ",
+   "loc": "79:13:3",
+   "audio": "https://audio.qurancdn.com/wbw/079_013_003.mp3",
+   "translit": "zajratun"
+  },
+  {
+   "type": "word",
+   "ar": "وَٰحِدَةٌۭ",
+   "loc": "79:13:4",
+   "audio": "https://audio.qurancdn.com/wbw/079_013_004.mp3",
+   "translit": "wāḥidatun"
+  },
+  {
+   "type": "word",
+   "ar": "مُّؤْصَدَةٌۭ",
+   "loc": "104:8:3",
+   "audio": "https://audio.qurancdn.com/wbw/104_008_003.mp3",
+   "translit": "mu'ṣadatun"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلْحَيَوٰةَ",
+   "loc": "87:16:3",
+   "audio": "https://audio.qurancdn.com/wbw/087_016_003.mp3",
+   "translit": "l-ḥayata"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلْبَرِيَّةِ",
+   "loc": "98:6:16",
+   "audio": "https://audio.qurancdn.com/wbw/098_006_016.mp3",
+   "translit": "l-bariyati"
+  }
+ ]
+}

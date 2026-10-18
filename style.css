@@ -138,3 +138,28 @@ h1.lt{font-size:22px;margin:4px 0 2px}
 .dkdk span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .dkdk b{color:var(--g);font-size:15px;white-space:nowrap}
 .dock .btn{touch-action:manipulation}
+/* ---- наборы зикров и дуа (v5) ---- */
+.dkseg{display:flex;margin:2px 0 8px}
+.dkseg a{flex:1;text-align:center;padding:8px 4px;font-weight:700;font-size:14px;color:var(--g);background:#fff;text-decoration:none}
+.dkseg a.on{background:var(--g);color:#fff}
+.dksets .btn{font-size:14px;padding:10px 4px}
+.duacard{border-color:#cfe5dc}
+.dsearch{display:flex;gap:8px;margin:12px 0 10px;position:sticky;top:var(--toph,74px);z-index:4;background:var(--bg);padding:6px 0}
+.dsearch input{flex:1;min-width:0;font-size:16px;padding:11px 12px;border:2px solid #d9ded9;border-radius:12px;background:#fff;color:var(--txt)}
+.dsearch input:focus{outline:none;border-color:var(--g)}
+.dsearch .sbtn{margin-left:0;font-size:15px;padding:8px 14px}
+.dgrid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px}
+.dgrid .card{margin:0}
+.dcat{display:flex;flex-direction:column;gap:3px;text-decoration:none;color:var(--txt);padding:14px 12px;border:2px solid transparent}
+.dcat:active{border-color:var(--g2)}
+.dcat .di{font-size:26px;line-height:1.1}
+.dcat b{font-size:15px;line-height:1.25}
+.dcat small{color:var(--mut);font-size:13px}
+.dua{padding:14px}
+.dua .dkh{cursor:default;margin-bottom:4px}
+.fav{margin-left:auto;border:0;background:none;font-size:24px;line-height:1;padding:2px 4px;color:var(--gold);cursor:pointer}
+.dcatl{font-size:12.5px;margin:-2px 0 4px}
+.dlab{font-size:13px;color:var(--mut);font-weight:600;margin-top:6px}
+.dcnt{font:700 14px/1 -apple-system,system-ui,sans-serif;color:var(--g);background:var(--g2);border-radius:8px;padding:2px 7px;vertical-align:middle}
+.dgrade{background:#fdecea;border-left:4px solid #d9534f;border-radius:12px;padding:10px 12px;margin:8px 0;font-size:14px}
+.dcount{font-size:14px;margin:4px 2px 10px}

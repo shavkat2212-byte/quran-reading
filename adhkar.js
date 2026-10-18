@@ -1,16 +1,27 @@
 "use strict";
-// Утренние зикры (азкары) по «Крепости мусульманина». Счётчики сбрасываются каждый новый день.
-const DK_KEY = "qr.adhkar.v1";
-const DK_URL = "adhkar/morning.json";
-let DK = null, DKS = null; const dkOpen = new Set();
+// Зикры (азкары) по «Крепости мусульманина» со счётчиками: утро, вечер, после намаза.
+// Утро и вечер сбрасываются каждый новый день; «после намаза» — через час без нажатий (следующий намаз).
+const DK_SETS = {
+  morning: {key: "qr.adhkar.v1", url: "adhkar/morning.json", hash: "#/adhkar", icon: "🌅", title: "Утренние зикры", word: "утренних",
+    intro: "Читаются после утреннего намаза (фаджр); лучшее время — до восхода солнца."},
+  evening: {key: "qr.adhkar.evening.v1", url: "adhkar/evening.json", hash: "#/adhkar/evening", icon: "🌇", title: "Вечерние зикры", word: "вечерних",
+    intro: "Читаются после послеполуденного намаза (аср) до заката, а также после заката."},
+  salah: {key: "qr.adhkar.salah.v1", url: "adhkar/salah.json", hash: "#/adhkar/salah", icon: "🕌", title: "Зикры после намаза", word: "",
+    intro: "После каждого обязательного намаза, сразу после саляма. Счётчик сам обнуляется через час — к следующему намазу.", idle: 60 * 60 * 1000}
+};
+let DKN = "morning", DK = null, DKS = null; const DKC = {}; const dkOpen = new Set();
+const dkSet = () => DK_SETS[DKN];
 
-function dkLoad() {
-  let s; try { s = JSON.parse(localStorage.getItem(DK_KEY) || "{}"); } catch (e) { s = {}; }
-  s = Object.assign({date: today(), c: {}, big: {}, tr: true, ru: true, days: []}, s);
+function dkLoad(name) {
+  const S = DK_SETS[name || DKN];
+  let s; try { s = JSON.parse(localStorage.getItem(S.key) || "{}"); } catch (e) { s = {}; }
+  s = Object.assign({date: today(), c: {}, big: {}, tr: true, ru: true, days: [], t: 0}, s);
   if (s.date !== today()) { s.date = today(); s.c = {}; } // новый день — всё заново
+  if (S.idle && s.t && Date.now() - s.t > S.idle) { s.c = {}; s.t = 0; } // следующий намаз
   return s;
 }
-function dkSave() { localStorage.setItem(DK_KEY, JSON.stringify(DKS)); }
+function dkSave() { localStorage.setItem(dkSet().key, JSON.stringify(DKS)); }
+async function dkUse(name) { DKN = name; DK = DKC[name] = DKC[name] || await getJSON(DK_SETS[name].url); DKS = dkLoad(); }
 function dkTarget(it) { return it.alt && DKS.big[it.id] ? it.alt : it.count; }
 function dkLeft(it) { return Math.max(0, dkTarget(it) - (DKS.c[it.id] || 0)); }
 function dkDone(it) { return dkLeft(it) === 0; }
@@ -25,28 +36,33 @@ function dkStreak(s) {
 function buzz(p) { try { if (navigator.vibrate) navigator.vibrate(p); } catch (e) {} }
 function times(n) { return n + " " + plural(n, "раз", "раза", "раз"); }
 
-// ---------- карточка на главной ----------
+// ---------- карточка на главной: утром — утренние, после 14:00 — вечерние ----------
 async function adhkarCard() {
-  DK = DK || await getJSON(DK_URL); DKS = dkLoad();
+  const name = new Date().getHours() < 14 ? "morning" : "evening";
+  await dkUse(name); const S = dkSet();
   const {n, all} = dkStats(); const s = dkStreak(DKS);
   const btn = n >= all
-    ? `<div class="okday">✓ Сегодня утренние зикры прочитаны. Барака-Ллаху фик!</div><a class="btn light2" href="#/adhkar">Открыть зикры</a>`
-    : `<a class="btn big gold" href="#/adhkar">🤲 ${n ? "Продолжить зикры: " + n + " из " + all : "Читать утренние зикры"}</a>`;
+    ? `<div class="okday">✓ Сегодня ${S.word} зикры прочитаны. Барака-Ллаху фик!</div>`
+    : `<a class="btn big gold" href="${S.hash}">🤲 ${n ? "Продолжить: " + n + " из " + all : "Читать " + S.title.toLowerCase()}</a>`;
   return `<section class="card mcard dkcard">
-    <h3 class="sec" style="margin:0 0 6px"><span>🌅 Утренние зикры</span><small>${s ? "🔥 " + s + " " + plural(s, "день", "дня", "дней") : ""}</small></h3>
-    <div class="muted" style="font-size:14px">После утреннего намаза · ${all} зикров из «Крепости мусульманина» со счётчиком</div>
+    <h3 class="sec" style="margin:0 0 6px"><span>${S.icon} ${S.title}</span><small>${s ? "🔥 " + s + " " + plural(s, "день", "дня", "дней") : ""}</small></h3>
+    <div class="muted" style="font-size:14px">${name === "morning" ? "После утреннего намаза" : "После асра и вечером"} · ${all} зикров из «Крепости мусульманина» со счётчиком</div>
     <div class="pbar" style="margin:8px 0 12px"><i style="width:${Math.round(n / all * 100)}%"></i></div>
     ${btn}
+    <div class="row dksets" style="margin-top:10px">${["morning", "evening", "salah"].map(k => `<a class="btn light2" href="${DK_SETS[k].hash}">${DK_SETS[k].icon} ${{morning: "Утро", evening: "Вечер", salah: "После намаза"}[k]}</a>`).join("")}</div>
   </section>`;
 }
 
 // ---------- экран зикров ----------
-async function adhkarView() {
-  DK = DK || await getJSON(DK_URL); DKS = dkLoad(); dkOpen.clear();
+async function adhkarView(name) {
+  await dkUse(name || "morning"); dkOpen.clear();
   drawAdhkar(); window.scrollTo(0, 0);
 }
 function dkArabic(it) {
   if (!it.ayat) return `<div class="dkar ar">${esc(it.ar).replace(/\n+/g, "<br>")}</div>`;
+  return quranHTML(it);
+}
+function quranHTML(it) {
   let h = it.pre ? `<div class="dkpre ar">${esc(it.pre)}</div>` : "";
   let run = [];
   const flush = () => { if (run.length) h += `<div class="dkar ar">${run.join(" ")}</div>`; run = []; };
@@ -67,9 +83,9 @@ function dkCardHTML(it, i) {
       ${DKS.tr ? `<div class="dktr">${esc(it.translit).replace(/\n/g, "<br>")}</div>` : ""}
       ${DKS.ru ? `<div class="dkru">${esc(it.ru).replace(/\n/g, "<br>")}${it.ruSrc ? ` <small>(${esc(it.ruSrc)})</small>` : ""}</div>` : ""}
       <div class="tip dkv">✨ ${esc(it.virtue)}</div>
-      <div class="dksrc">📚 ${esc(it.src)} · «Крепость мусульманина» № ${it.n}</div>
+      <div class="dksrc">📚 ${esc(it.src)}${it.n ? ` · «Крепость мусульманина» № ${it.n}` : ""}</div>
       <div class="dkctl">
-        <button class="sbtn" data-act="play">▶ Слушать</button>
+        ${it.audio ? `<button class="sbtn" data-act="play">▶ Слушать</button>` : `<span class="muted" style="font-size:13px">без аудиозаписи</span>`}
         ${it.alt ? `<span class="seg"><button data-act="cnt" data-v="0" class="${DKS.big[it.id] ? "" : "on"}">${it.count}</button><button data-act="cnt" data-v="1" class="${DKS.big[it.id] ? "on" : ""}">${it.alt}</button></span>` : ""}
         ${(DKS.c[it.id] || 0) > 0 ? `<button class="undo" data-act="undo" title="Отменить последнее нажатие">↶ −1</button>` : ""}
       </div>
@@ -80,8 +96,9 @@ function dkCardHTML(it, i) {
 function drawAdhkar() {
   const {n, all} = dkStats();
   let h = `<a class="back" href="#/">‹ На главную</a>
-    <h1 class="lt">🌅 Утренние зикры</h1>
-    <div class="muted" style="font-size:14px">Читаются после утреннего намаза (фаджр); лучшее время — до восхода солнца. По книге «Крепость мусульманина» (Хисн аль-муслим).</div>
+    <div class="seg dkseg">${Object.entries(DK_SETS).map(([k, S]) => `<a href="${S.hash}" class="${k === DKN ? "on" : ""}">${S.icon} ${{morning: "Утро", evening: "Вечер", salah: "После намаза"}[k]}</a>`).join("")}</div>
+    <h1 class="lt">${dkSet().icon} ${dkSet().title}</h1>
+    <div class="muted" style="font-size:14px">${dkSet().intro} По книге «Крепость мусульманина» (Хисн аль-муслим).</div>
     <section class="card dkprog" id="dkprog">${dkProgHTML(n, all)}</section>
     <div class="ctrls">
       <label class="toggle"><input type="checkbox" id="dktr" ${DKS.tr ? "checked" : ""}> Транскрипция</label>
@@ -89,21 +106,21 @@ function drawAdhkar() {
       <button class="sbtn light" id="dkreset">↺ Сбросить</button>
     </div>
     <div id="dklist">${DK.items.map(dkCardHTML).join("")}</div>
-    <p class="foot">Арабский текст: «Хисн аль-муслим» (github.com/asellam/HisnElMuslim, сверено с Seen-Arabic/Morning-And-Evening-Adhkar-DB); аяты — api.quran.com (письмо усмани), перевод аятов — Э. Кулиев.<br>Перевод и транскрипция дуа — русское издание «Крепости мусульманина». Звук: hisnmuslim.com.<br>Счётчики обнуляются каждый новый день.</p>`;
+    <p class="foot">Арабский текст: «Хисн аль-муслим» (github.com/asellam/HisnElMuslim, сверено с Seen-Arabic/Morning-And-Evening-Adhkar-DB и hisnmuslim.com); аяты — api.quran.com (письмо усмани), перевод аятов — Э. Кулиев.<br>Перевод и транскрипция дуа — русское издание «Крепости мусульманина». Звук: hisnmuslim.com.<br>${dkSet().idle ? "Счётчик обнуляется через час без нажатий — к следующему намазу." : "Счётчики обнуляются каждый новый день."}</p>`;
   $app.innerHTML = h;
   document.documentElement.style.setProperty("--toph", document.querySelector(".top").offsetHeight + "px");
   dkDock();
   const chk = (id, key) => { document.getElementById(id).onchange = e => { DKS[key] = e.target.checked; dkSave(); drawAdhkar(); }; };
   chk("dktr", "tr"); chk("dkru", "ru");
   document.getElementById("dkreset").onclick = () => {
-    if (!confirm("Сбросить все счётчики за сегодня?")) return;
+    if (!confirm("Сбросить все счётчики?")) return;
     DKS.c = {}; DKS.days = DKS.days.filter(d => d !== today()); dkSave(); dkOpen.clear(); drawAdhkar(); window.scrollTo(0, 0);
   };
   document.getElementById("dklist").onclick = dkClick;
 }
 function dkProgHTML(n, all) {
   return n >= all
-    ? `<div class="okday" style="margin:0">✓ Все ${all} утренних зикров прочитаны. Да примет Аллах!</div>`
+    ? `<div class="okday" style="margin:0">✓ Все ${all} ${dkSet().word ? dkSet().word + " " : ""}зикров прочитаны. Да примет Аллах!</div>`
     : `<div class="phead"><b>Прочитано ${n} из ${all}</b><span class="muted">${Math.round(n / all * 100)}%</span></div><div class="pbar" style="margin:8px 0 0"><i style="width:${Math.round(n / all * 100)}%"></i></div>`;
 }
 function dkDock() {
@@ -133,10 +150,10 @@ function dkRefresh(ids) {
   dkDock();
 }
 function dkTap(it) {
-  if (DKS.date !== today()) { DKS = dkLoad(); drawAdhkar(); return; }
+  const fresh = dkLoad(); if (fresh.date !== DKS.date || Object.keys(fresh.c).length < Object.keys(DKS.c).length) { DKS = fresh; drawAdhkar(); return; }
   if (dkDone(it)) return;
   const prevCur = dkCur();
-  DKS.c[it.id] = (DKS.c[it.id] || 0) + 1;
+  DKS.c[it.id] = (DKS.c[it.id] || 0) + 1; DKS.t = Date.now();
   const fin = dkDone(it);
   let all = false;
   if (fin && DK.items.every(dkDone) && !DKS.days.includes(today())) { DKS.days.push(today()); all = true; }
@@ -158,5 +175,7 @@ function dkClick(ev) {
 }
 // если приложение было открыто через полночь — при возвращении начинаем новый день
 document.addEventListener("visibilitychange", () => {
-  if (document.visibilityState === "visible" && DKS && DKS.date !== today()) { DKS = dkLoad(); if (location.hash === "#/adhkar") drawAdhkar(); else if (!location.hash || location.hash === "#/") route(); }
+  if (document.visibilityState !== "visible" || !DKS) return;
+  const fresh = dkLoad();
+  if (fresh.date !== DKS.date || Object.keys(fresh.c).length < Object.keys(DKS.c).length) { DKS = fresh; if (location.hash.startsWith("#/adhkar")) drawAdhkar(); else if (!location.hash || location.hash === "#/") route(); }
 });

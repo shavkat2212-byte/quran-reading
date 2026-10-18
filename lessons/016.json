@@ -1,0 +1,94 @@
+{
+ "id": "016",
+ "title": "Танвин",
+ "subtitle": "Двойная огласовка: -ун, -ин, -ан",
+ "level": 3,
+ "targetSeconds": 32,
+ "tip": "Танвин — двойной значок в конце слова: ـٌ «-ун», ـٍ «-ин», ـً «-ан» (после него часто пишется немая алиф). Пример: وَيْلٌۭ и نَفْسٌۭ. В конце аята при остановке танвин -ун/-ин не читается, а -ан превращается в долгое «а».",
+ "items": [
+  {
+   "type": "word",
+   "ar": "وَيْلٌۭ",
+   "loc": "104:1:1",
+   "audio": "https://audio.qurancdn.com/wbw/104_001_001.mp3",
+   "translit": "waylun"
+  },
+  {
+   "type": "word",
+   "ar": "نَفْسٌۭ",
+   "loc": "82:5:2",
+   "audio": "https://audio.qurancdn.com/wbw/082_005_002.mp3",
+   "translit": "nafsun"
+  },
+  {
+   "type": "word",
+   "ar": "شَىْءٍۢ",
+   "loc": "85:9:9",
+   "audio": "https://audio.qurancdn.com/wbw/085_009_009.mp3",
+   "translit": "shayin"
+  },
+  {
+   "type": "word",
+   "ar": "خَيْرٌۭ",
+   "loc": "97:3:3",
+   "audio": "https://audio.qurancdn.com/wbw/097_003_003.mp3",
+   "translit": "khayrun"
+  },
+  {
+   "type": "word",
+   "ar": "جُوعٍۢ",
+   "loc": "106:4:4",
+   "audio": "https://audio.qurancdn.com/wbw/106_004_004.mp3",
+   "translit": "jūʿin"
+  },
+  {
+   "type": "word",
+   "ar": "لَهَبٍۢ",
+   "loc": "111:1:4",
+   "audio": "https://audio.qurancdn.com/wbw/111_001_004.mp3",
+   "translit": "lahabin"
+  },
+  {
+   "type": "word",
+   "ar": "كِتَـٰبٌۭ",
+   "loc": "83:9:1",
+   "audio": "https://audio.qurancdn.com/wbw/083_009_001.mp3",
+   "translit": "kitābun"
+  },
+  {
+   "type": "word",
+   "ar": "أَجْرٌ",
+   "loc": "95:6:7",
+   "audio": "https://audio.qurancdn.com/wbw/095_006_007.mp3",
+   "translit": "ajrun"
+  },
+  {
+   "type": "word",
+   "ar": "نَارًۭا",
+   "loc": "111:3:2",
+   "audio": "https://audio.qurancdn.com/wbw/111_003_002.mp3",
+   "translit": "nāran"
+  },
+  {
+   "type": "word",
+   "ar": "وُجُوهٌۭ",
+   "loc": "88:2:1",
+   "audio": "https://audio.qurancdn.com/wbw/088_002_001.mp3",
+   "translit": "wujūhun"
+  },
+  {
+   "type": "word",
+   "ar": "يَوْمَئِذٍ",
+   "loc": "102:8:3",
+   "audio": "https://audio.qurancdn.com/wbw/102_008_003.mp3",
+   "translit": "yawma-idhin"
+  },
+  {
+   "type": "word",
+   "ar": "حِسَابًۭا",
+   "loc": "84:8:3",
+   "audio": "https://audio.qurancdn.com/wbw/084_008_003.mp3",
+   "translit": "ḥisāban"
+  }
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "id": "019",
+ "title": "Хамза: ء أ إ ؤ ئ",
+ "subtitle": "Короткая «запинка» голоса",
+ "level": 4,
+ "targetSeconds": 28,
+ "tip": "Хамза — короткий смычок в горле, как пауза в «а-а». Она пишется отдельно (ء) или на подставке: أ إ (алиф), ؤ (вав), ئ (йа без точек). Подставка не читается — читается только хамза со своей огласовкой: وَإِنَّ, فَإِنَّ.",
+ "items": [
+  {
+   "type": "word",
+   "ar": "وَإِنَّ",
+   "loc": "92:13:1",
+   "audio": "https://audio.qurancdn.com/wbw/092_013_001.mp3",
+   "translit": "wa-inna"
+  },
+  {
+   "type": "word",
+   "ar": "فَإِنَّ",
+   "loc": "94:5:1",
+   "audio": "https://audio.qurancdn.com/wbw/094_005_001.mp3",
+   "translit": "fa-inna"
+  },
+  {
+   "type": "word",
+   "ar": "وَإِذَا",
+   "loc": "84:3:1",
+   "audio": "https://audio.qurancdn.com/wbw/084_003_001.mp3",
+   "translit": "wa-idhā"
+  },
+  {
+   "type": "word",
+   "ar": "وَأَمَّا",
+   "loc": "101:8:1",
+   "audio": "https://audio.qurancdn.com/wbw/101_008_001.mp3",
+   "translit": "wa-ammā"
+  },
+  {
+   "type": "word",
+   "ar": "فَأَمَّا",
+   "loc": "101:6:1",
+   "audio": "https://audio.qurancdn.com/wbw/101_006_001.mp3",
+   "translit": "fa-ammā"
+  },
+  {
+   "type": "word",
+   "ar": "إِنَّهُمْ",
+   "loc": "86:15:1",
+   "audio": "https://audio.qurancdn.com/wbw/086_015_001.mp3",
+   "translit": "innahum"
+  },
+  {
+   "type": "word",
+   "ar": "فَإِذَا",
+   "loc": "94:7:1",
+   "audio": "https://audio.qurancdn.com/wbw/094_007_001.mp3",
+   "translit": "fa-idhā"
+  },
+  {
+   "type": "word",
+   "ar": "وَإِلَى",
+   "loc": "88:18:1",
+   "audio": "https://audio.qurancdn.com/wbw/088_018_001.mp3",
+   "translit": "wa-ilā"
+  },
+  {
+   "type": "word",
+   "ar": "أَرَءَيْتَ",
+   "loc": "107:1:1",
+   "audio": "https://audio.qurancdn.com/wbw/107_001_001.mp3",
+   "translit": "ara-ayta"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلْأَرْضُ",
+   "loc": "99:1:3",
+   "audio": "https://audio.qurancdn.com/wbw/099_001_003.mp3",
+   "translit": "l-arḍu"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلْإِنسَـٰنُ",
+   "loc": "99:3:2",
+   "audio": "https://audio.qurancdn.com/wbw/099_003_002.mp3",
+   "translit": "l-insānu"
+  },
+  {
+   "type": "word",
+   "ar": "وَٱلْأَرْضِ",
+   "loc": "91:6:1",
+   "audio": "https://audio.qurancdn.com/wbw/091_006_001.mp3",
+   "translit": "wal-arḍi"
+  }
+ ]
+}

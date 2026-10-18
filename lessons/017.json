@@ -1,0 +1,94 @@
+{
+ "id": "017",
+ "title": "Долгие гласные (мадд табии)",
+ "subtitle": "ا و ي и маленькая алиф",
+ "level": 3,
+ "targetSeconds": 30,
+ "tip": "Буква ا после фатхи, و после даммы, ي после касры — это не новые звуки, а удлинение гласной на два счёта. Маленькая алиф над буквой ( ـٰ ) — тоже долгое «а». Пример: وَلَا, ذَاتِ. Тяните ровно, не дольше и не короче.",
+ "items": [
+  {
+   "type": "word",
+   "ar": "وَلَا",
+   "loc": "1:7:8",
+   "audio": "https://audio.qurancdn.com/wbw/001_007_008.mp3",
+   "translit": "walā"
+  },
+  {
+   "type": "word",
+   "ar": "ذَاتِ",
+   "loc": "89:7:2",
+   "audio": "https://audio.qurancdn.com/wbw/089_007_002.mp3",
+   "translit": "dhāti"
+  },
+  {
+   "type": "word",
+   "ar": "فَلَا",
+   "loc": "93:9:3",
+   "audio": "https://audio.qurancdn.com/wbw/093_009_003.mp3",
+   "translit": "falā"
+  },
+  {
+   "type": "word",
+   "ar": "هَـٰذَا",
+   "loc": "106:3:3",
+   "audio": "https://audio.qurancdn.com/wbw/106_003_003.mp3",
+   "translit": "hādhā"
+  },
+  {
+   "type": "word",
+   "ar": "فَمَا",
+   "loc": "95:7:1",
+   "audio": "https://audio.qurancdn.com/wbw/095_007_001.mp3",
+   "translit": "famā"
+  },
+  {
+   "type": "word",
+   "ar": "فِيهَا",
+   "loc": "98:3:1",
+   "audio": "https://audio.qurancdn.com/wbw/098_003_001.mp3",
+   "translit": "fīhā"
+  },
+  {
+   "type": "word",
+   "ar": "حَدِيثُ",
+   "loc": "88:1:3",
+   "audio": "https://audio.qurancdn.com/wbw/088_001_003.mp3",
+   "translit": "ḥadīthu"
+  },
+  {
+   "type": "word",
+   "ar": "كَفَرُوا۟",
+   "loc": "98:1:4",
+   "audio": "https://audio.qurancdn.com/wbw/098_001_004.mp3",
+   "translit": "kafarū"
+  },
+  {
+   "type": "word",
+   "ar": "عَلَيْهَا",
+   "loc": "86:4:5",
+   "audio": "https://audio.qurancdn.com/wbw/086_004_005.mp3",
+   "translit": "ʿalayhā"
+  },
+  {
+   "type": "word",
+   "ar": "وَجَعَلْنَا",
+   "loc": "78:9:1",
+   "audio": "https://audio.qurancdn.com/wbw/078_009_001.mp3",
+   "translit": "wajaʿalnā"
+  },
+  {
+   "type": "word",
+   "ar": "تَعْلَمُونَ",
+   "loc": "102:3:3",
+   "audio": "https://audio.qurancdn.com/wbw/102_003_003.mp3",
+   "translit": "taʿlamūna"
+  },
+  {
+   "type": "word",
+   "ar": "يَنظُرُونَ",
+   "loc": "88:17:2",
+   "audio": "https://audio.qurancdn.com/wbw/088_017_002.mp3",
+   "translit": "yanẓurūna"
+  }
+ ]
+}

@@ -1,0 +1,108 @@
+{
+ "id": "023",
+ "title": "Длинные слова: 8–12 букв",
+ "subtitle": "Всё вместе на скорость",
+ "level": 5,
+ "targetSeconds": 32,
+ "tip": "Самые длинные слова 30-го джуза. Ищите знакомые части: приставку, ٱل, корень, окончание ـُونَ / ـِينَ / ـَـٰتِ. Пример: وَلِأَنْعَـٰمِكُمْ. Сначала по слогам, потом целиком и быстро.",
+ "items": [
+  {
+   "type": "word",
+   "ar": "وَلِأَنْعَـٰمِكُمْ",
+   "loc": "80:32:3",
+   "audio": "https://audio.qurancdn.com/wbw/080_032_003.mp3",
+   "translit": "wali-anʿāmikum"
+  },
+  {
+   "type": "word",
+   "ar": "ٱلْمُقَرَّبُونَ",
+   "loc": "83:21:2",
+   "audio": "https://audio.qurancdn.com/wbw/083_021_002.mp3",
+   "translit": "l-muqarabūna"
+  },
+  {
+   "type": "word",
+   "ar": "فَٱلْمُورِيَـٰتِ",
+   "loc": "100:2:1",
+   "audio": "https://audio.qurancdn.com/wbw/100_002_001.mp3",
+   "translit": "fal-mūriyāti"
+  },
+  {
+   "type": "word",
+   "ar": "فَٱلْمُغِيرَٰتِ",
+   "loc": "100:3:1",
+   "audio": "https://audio.qurancdn.com/wbw/100_003_001.mp3",
+   "translit": "fal-mughīrāti"
+  },
+  {
+   "type": "word",
+   "ar": "فَلْيَعْبُدُوا۟",
+   "loc": "106:3:1",
+   "audio": "https://audio.qurancdn.com/wbw/106_003_001.mp3",
+   "translit": "falyaʿbudū"
+  },
+  {
+   "type": "word",
+   "ar": "يَتَسَآءَلُونَ",
+   "loc": "78:1:2",
+   "audio": "https://audio.qurancdn.com/wbw/078_001_002.mp3",
+   "translit": "yatasāalūna"
+  },
+  {
+   "type": "word",
+   "ar": "وَٱلْمَلَـٰٓئِكَةُ",
+   "loc": "78:38:4",
+   "audio": "https://audio.qurancdn.com/wbw/078_038_004.mp3",
+   "translit": "wal-malāikatu"
+  },
+  {
+   "type": "word",
+   "ar": "لَمَرْدُودُونَ",
+   "loc": "79:10:3",
+   "audio": "https://audio.qurancdn.com/wbw/079_010_003.mp3",
+   "translit": "lamardūdūna"
+  },
+  {
+   "type": "word",
+   "ar": "بِٱلسَّاهِرَةِ",
+   "loc": "79:14:3",
+   "audio": "https://audio.qurancdn.com/wbw/079_014_003.mp3",
+   "translit": "bil-sāhirati"
+  },
+  {
+   "type": "word",
+   "ar": "فَٱلْمُدَبِّرَٰتِ",
+   "loc": "79:5:1",
+   "audio": "https://audio.qurancdn.com/wbw/079_005_001.mp3",
+   "translit": "fal-mudabirāti"
+  },
+  {
+   "type": "word",
+   "ar": "لِّلْمُكَذِّبِينَ",
+   "loc": "83:10:3",
+   "audio": "https://audio.qurancdn.com/wbw/083_010_003.mp3",
+   "translit": "lil'mukadhibīna"
+  },
+  {
+   "type": "word",
+   "ar": "لَّمَحْجُوبُونَ",
+   "loc": "83:15:6",
+   "audio": "https://audio.qurancdn.com/wbw/083_015_006.mp3",
+   "translit": "lamaḥjūbūna"
+  },
+  {
+   "type": "word",
+   "ar": "لِّلْمُطَفِّفِينَ",
+   "loc": "83:1:2",
+   "audio": "https://audio.qurancdn.com/wbw/083_001_002.mp3",
+   "translit": "lil'muṭaffifīna"
+  },
+  {
+   "type": "word",
+   "ar": "يَتَغَامَزُونَ",
+   "loc": "83:30:4",
+   "audio": "https://audio.qurancdn.com/wbw/083_030_004.mp3",
+   "translit": "yataghāmazūna"
+  }
+ ]
+}

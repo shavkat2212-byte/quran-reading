@@ -123,3 +123,6 @@ json.dump({"title": "Самоучитель чтения Корана", "owner":
              {"id": "reading", "title": "Чтение: слова и аяты", "dir": "", "lessons": index}]},
           open("lessons/index.json", "w"), ensure_ascii=False, indent=1)
 for x in index: print(x['id'], x['count'], x['targetSeconds'], x['title'])
+
+# уроки 016–030
+exec(open("tools/build_lessons2.py").read())
